@@ -1,0 +1,10 @@
+name: grok-best-video-editor
+version: 1.0.0
+description: "Turns uploaded footage into cut clips, burned-in captions, and platform-sized exports. Works from your notes and never overwrites the original."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by X Freeze"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

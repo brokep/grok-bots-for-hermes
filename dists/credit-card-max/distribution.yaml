@@ -1,0 +1,10 @@
+name: grok-credit-card-max
+version: 1.0.0
+description: "Credit card maxing with live Grok Finance (Plaid): which card to swipe given your priorities (points, cash back, airline/hotel status), statement-credit tracking with muteable expiry nags, wrong-card recurring flags, and a monthly points-and-perks rollup — not budgeting."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Trevin Chow"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -1,0 +1,125 @@
+{
+  "jobs": [
+    {
+      "id": "57b2d7df7cd7",
+      "name": "Daily spend and performance check",
+      "prompt": "Load the `fuse--routine-daily-spend-and-performance-check` skill and run it now. Original schedule: Every weekday morning, checks the newest ad numbers against your thresholds and flags what broke, with the one change to make on each urgent line.. Report the result as your final response.",
+      "skills": [
+        "fuse--routine-daily-spend-and-performance-check"
+      ],
+      "skill": "fuse--routine-daily-spend-and-performance-check",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1-5",
+        "display": "weekdays at 09:00"
+      },
+      "schedule_display": "weekdays at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.275780-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.275780-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "546131054b19",
+      "name": "Midday burn check",
+      "prompt": "Load the `fuse--routine-midday-burn-check` skill and run it now. Original schedule: Every weekday around midday, catches a spend spike the same day it happens, but only when a live source is connected.. Report the result as your final response.",
+      "skills": [
+        "fuse--routine-midday-burn-check"
+      ],
+      "skill": "fuse--routine-midday-burn-check",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * 1-5",
+        "display": "weekdays at 12:00"
+      },
+      "schedule_display": "weekdays at 12:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.275780-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.275780-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "1a7df0e02972",
+      "name": "Weekly budget pace check",
+      "prompt": "Load the `fuse--routine-weekly-budget-pace-check` skill and run it now. Original schedule: Every Monday morning, where month-to-date ad spend lands against your plan and which accounts are going to overshoot.. Report the result as your final response.",
+      "skills": [
+        "fuse--routine-weekly-budget-pace-check"
+      ],
+      "skill": "fuse--routine-weekly-budget-pace-check",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "Monday at 09:00"
+      },
+      "schedule_display": "Monday at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.275780-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.275780-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.275780-06:00"
+}

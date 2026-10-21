@@ -1,0 +1,10 @@
+name: grok-pitch-deck-coach
+version: 1.0.0
+description: "Reviews a pitch deck and reports what an investor is likely to understand, believe, question, and remember, then helps strengthen the story, evidence, and slides."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Hiten Shah"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

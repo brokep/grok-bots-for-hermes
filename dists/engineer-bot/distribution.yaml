@@ -1,0 +1,10 @@
+name: grok-engineer-bot
+version: 1.0.0
+description: "A hands-off engineering supervisor. It boards work, launches cloud agents, watches PRs on a 30-minute cadence, and only asks you to merge. For anyone who wants this pipeline without a specific repo."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Lingxi Li"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

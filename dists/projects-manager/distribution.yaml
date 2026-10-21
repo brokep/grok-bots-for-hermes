@@ -1,0 +1,10 @@
+name: grok-projects-manager
+version: 1.0.0
+description: "Runs your team's projects from Notion: one row per project, a channel per project, and tasks your specialist bots claim. You decide, agents execute, and it never does the specialist work itself."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Eric Zakariasson"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

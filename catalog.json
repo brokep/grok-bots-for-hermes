@@ -1,0 +1,1520 @@
+[
+ {
+  "slug": "account-book",
+  "profile": "grok-account-book",
+  "name": "Account Research Desk",
+  "skills": 11,
+  "routines": 3,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "hex",
+   "Databricks SQL",
+   "Gmail",
+   "Google Calendar",
+   "Granola",
+   "Google Drive",
+   "Google Sheets",
+   "Salesforce"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Researches the companies you sell to and writes your pre-call brief and account plan. Works from the public web and the notes you paste, and never sends withou…"
+ },
+ {
+  "slug": "account-research",
+  "profile": "grok-account-research",
+  "name": "GTM Account Research",
+  "skills": 4,
+  "routines": 1,
+  "integrations": [
+   "Salesforce",
+   "Gmail",
+   "Google Calendar",
+   "Slack",
+   "Notion",
+   "Google Sheets",
+   "Granola"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Researches one account before a meeting, deal review, or account plan. Brings together company changes, key people, relationship history, open questions, and t…"
+ },
+ {
+  "slug": "ai-search-visibility",
+  "profile": "grok-ai-search-visibility",
+  "name": "AI Search Visibility",
+  "skills": 8,
+  "routines": 2,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "hex",
+   "Profound",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Checks whether AI assistants and Google recommend you, and who they name instead. Starts from a handful of questions your buyers actually ask."
+ },
+ {
+  "slug": "alfred",
+  "profile": "grok-alfred",
+  "name": "Alfred",
+  "skills": 6,
+  "routines": 3,
+  "integrations": [],
+  "categories": [
+   "Operations"
+  ],
+  "description": "Designs, audits, and governs your Grok Bot organization so it matches real company outcomes, with clear human owners and no duplicate jobs. Recommends the smal…"
+ },
+ {
+  "slug": "apple-search-ads-review",
+  "profile": "grok-apple-search-ads-review",
+  "name": "Apple Search Ads Review",
+  "skills": 7,
+  "routines": 2,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "hex",
+   "Databricks SQL",
+   "linear",
+   "Gmail",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Reviews your Apple Search Ads spend against your cost per install target. Drafts the keyword, bid, and budget changes, and never touches your account."
+ },
+ {
+  "slug": "best-video-editor",
+  "profile": "grok-best-video-editor",
+  "name": "Video Edit Desk",
+  "skills": 6,
+  "routines": 1,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "figma"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Turns uploaded footage into cut clips, burned-in captions, and platform-sized exports. Works from your notes and never overwrites the original."
+ },
+ {
+  "slug": "call-follow-ups",
+  "profile": "grok-call-follow-ups",
+  "name": "Call Follow-Ups",
+  "skills": 6,
+  "routines": 1,
+  "integrations": [
+   "Gong",
+   "Granola",
+   "Salesforce",
+   "HubSpot",
+   "Attio",
+   "Gmail",
+   "Outlook",
+   "Google Calendar",
+   "Slack",
+   "Notion",
+   "Linear",
+   "Hex"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Turns each recorded call into a follow-up email in your voice, a next-steps note, and the CRM updates, including the qualification fields your team runs on. Wa…"
+ },
+ {
+  "slug": "chief-health",
+  "profile": "grok-chief-health",
+  "name": "Chief Health",
+  "skills": 0,
+  "routines": 2,
+  "integrations": [],
+  "categories": [
+   "Personal"
+  ],
+  "description": "You're the Chief Health Officer. Every day, ask if training happened. If it did not, rewrite the next session so the week still holds. Read whatever workout ap…"
+ },
+ {
+  "slug": "clip-bot",
+  "profile": "grok-clip-bot",
+  "name": "Clip Bot",
+  "skills": 6,
+  "routines": 2,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "figma"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Finds the best moments in a long recording and cuts them into short captioned clips. Works from an upload or a link, with transcript and timestamps on every cl…"
+ },
+ {
+  "slug": "company-docs-q-a",
+  "profile": "grok-company-docs-q-a",
+  "name": "Company Docs Q&A",
+  "skills": 0,
+  "routines": 0,
+  "integrations": [
+   "Slack",
+   "Notion"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Answers product and how-to questions from live docs first, then connected knowledge sources, and always cites sources. Built for anyone who wants a trustworthy…"
+ },
+ {
+  "slug": "competitor-watching",
+  "profile": "grok-competitor-watching",
+  "name": "Competitor Watch",
+  "skills": 5,
+  "routines": 2,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear"
+  ],
+  "categories": [
+   "Product"
+  ],
+  "description": "Tracks competitor pricing, product, and hiring pages and briefs you on real changes. Starts from a list of URLs you paste."
+ },
+ {
+  "slug": "cooper",
+  "profile": "grok-cooper",
+  "name": "Cooper",
+  "skills": 0,
+  "routines": 3,
+  "integrations": [
+   "Slack"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "News agent for AI, tech, venture capital, and business. Delivers a tight daily Slack briefing of top stories at 8am, plus weekday mid-day competitor alerts onl…"
+ },
+ {
+  "slug": "credit-card-max",
+  "profile": "grok-credit-card-max",
+  "name": "Credit Card Max",
+  "skills": 2,
+  "routines": 3,
+  "integrations": [],
+  "categories": [
+   "Personal"
+  ],
+  "description": "Credit card maxing with live Grok Finance (Plaid): which card to swipe given your priorities (points, cash back, airline/hotel status), statement-credit tracki…"
+ },
+ {
+  "slug": "critiquito",
+  "profile": "grok-critiquito",
+  "name": "Critiquito: Design Critique",
+  "skills": 7,
+  "routines": 1,
+  "integrations": [
+   "figma",
+   "slack",
+   "notion-workspace",
+   "linear"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Design"
+  ],
+  "description": "Turns a screenshot or Figma link into a design critique with ranked, concrete fixes. Covers hierarchy, type, color, copy, and accessibility, and never edits yo…"
+ },
+ {
+  "slug": "customer-call-coach",
+  "profile": "grok-customer-call-coach",
+  "name": "Customer Call Coach & Assistant",
+  "skills": 0,
+  "routines": 1,
+  "integrations": [
+   "Granola",
+   "Slack",
+   "Gmail"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Briefs you before customer calls and coaches you after based on your performance."
+ },
+ {
+  "slug": "customer-question-drafter",
+  "profile": "grok-customer-question-drafter",
+  "name": "Product Support Inbox Assistant",
+  "skills": 0,
+  "routines": 0,
+  "integrations": [
+   "Slack",
+   "Gmail",
+   "Granola"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Helps you find and draft answers to product questions. Never sends emails without you."
+ },
+ {
+  "slug": "customer-stories",
+  "profile": "grok-customer-stories",
+  "name": "Customer Proof Desk",
+  "skills": 11,
+  "routines": 2,
+  "integrations": [
+   "notion-workspace",
+   "slack",
+   "linear",
+   "figma",
+   "hex",
+   "Gmail",
+   "Granola"
+  ],
+  "categories": [
+   "Sales"
+  ],
+  "description": "Turns call notes and transcripts into case studies, testimonials, and proof points. Quotes stay word for word from what you paste, and nothing publishes withou…"
+ },
+ {
+  "slug": "dan-lanning",
+  "profile": "grok-dan-lanning",
+  "name": "Dan Lanning",
+  "skills": 0,
+  "routines": 1,
+  "integrations": [
+   "Notion",
+   "Google Calendar"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Pitch and delivery coach for partnership, sponsorship, and high-stakes discovery calls. Reviews real call transcripts and returns sharp, evidence-based coachin…"
+ },
+ {
+  "slug": "deal-hunting",
+  "profile": "grok-deal-hunting",
+  "name": "Deal Hunting",
+  "skills": 0,
+  "routines": 2,
+  "integrations": [],
+  "categories": [
+   "Personal"
+  ],
+  "description": "Landed-cost shopping: real prices, shipping and tax, preferred retailers. Watchlist optional. Never buys unless asked."
+ },
+ {
+  "slug": "deal-qualification",
+  "profile": "grok-deal-qualification",
+  "name": "Deal Inspector",
+  "skills": 4,
+  "routines": 1,
+  "integrations": [
+   "Gong",
+   "Granola",
+   "Salesforce",
+   "HubSpot",
+   "Attio",
+   "Slack",
+   "Gmail",
+   "Notion",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Checks every deal that moved stage against your qualification criteria using the actual call transcripts. Quotes the evidence, flags what is missing, recommend…"
+ },
+ {
+  "slug": "dial-bot",
+  "profile": "grok-dial-bot",
+  "name": "dial bot",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "From Grok Bot Team",
+   "Personal"
+  ],
+  "description": "Places outbound Bland AI phone calls when you ask, then reports what happened. On first use it asks for a Bland API key and voice."
+ },
+ {
+  "slug": "distro-bot",
+  "profile": "grok-distro-bot",
+  "name": "Distro Bot",
+  "skills": 7,
+  "routines": 4,
+  "integrations": [
+   "X",
+   "Gmail"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Runs your marketing loop end to end: campaigns on your ad accounts, fresh creative, real channel analysis, timely posts from X and web scans, and outbound unti…"
+ },
+ {
+  "slug": "dr-eggbot-v2",
+  "profile": "grok-dr-eggbot-v2",
+  "name": "dr eggbot",
+  "skills": 4,
+  "routines": 2,
+  "integrations": [
+   "pstack"
+  ],
+  "categories": [
+   "From Grok Bot Team"
+  ],
+  "description": "Designs high-quality Grok Bots. Asks a few preference questions, then creates them with CreateAgent. Coding bots get the poteto-mode bar (one job, unslopped, v…"
+ },
+ {
+  "slug": "ebr-value-deck-builder",
+  "profile": "grok-ebr-value-deck-builder",
+  "name": "EBR & Value Deck Builder",
+  "skills": 5,
+  "routines": 1,
+  "integrations": [
+   "Salesforce",
+   "HubSpot",
+   "Attio",
+   "Gong",
+   "Mixpanel",
+   "Google Drive",
+   "OneDrive"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable fil…"
+ },
+ {
+  "slug": "echo",
+  "profile": "grok-echo",
+  "name": "Meeting Recap Deck",
+  "skills": 8,
+  "routines": 2,
+  "integrations": [
+   "figma",
+   "Google Slides",
+   "notion-workspace",
+   "slack",
+   "linear",
+   "Gmail",
+   "Google Calendar",
+   "Granola",
+   "Gong"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Turns your meeting notes into a recap deck in your slide template. Works from notes you paste or upload, and never invents a quote."
+ },
+ {
+  "slug": "engineer-bot",
+  "profile": "grok-engineer-bot",
+  "name": "Lingxi's Engineer Bot",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [
+   "Notion"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Engineering"
+  ],
+  "description": "A hands-off engineering supervisor. It boards work, launches cloud agents, watches PRs on a 30-minute cadence, and only asks you to merge. For anyone who wants…"
+ },
+ {
+  "slug": "engineering-lead",
+  "profile": "grok-engineering-lead",
+  "name": "Engineering Lead",
+  "skills": 5,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Engineering"
+  ],
+  "description": "An engineering lead that owns the loop: breaks work into Cloud Agents, chases CI, reviews, and stalls on a weekday cadence, and only pings you when something i…"
+ },
+ {
+  "slug": "event-producer",
+  "profile": "grok-event-producer",
+  "name": "Event Producer",
+  "skills": 8,
+  "routines": 3,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "figma",
+   "Gmail",
+   "Google Calendar",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Turns your event details into a run of show, guest list, and day-of checklist. Tracks vendors, guests, dietary needs, and travel, and never sends a message wit…"
+ },
+ {
+  "slug": "event-request-desk",
+  "profile": "grok-event-request-desk",
+  "name": "Event Request Desk",
+  "skills": 8,
+  "routines": 3,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "figma",
+   "hex",
+   "Gmail",
+   "Google Calendar",
+   "Google Drive",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Operations"
+  ],
+  "description": "Scores every event, sponsorship, and speaking ask, then drafts your yes or no. Works from a Slack channel or a paste, and never sends without you."
+ },
+ {
+  "slug": "figma-bro",
+  "profile": "grok-figma-bro",
+  "name": "figma bro",
+  "skills": 8,
+  "routines": 2,
+  "integrations": [
+   "figma",
+   "notion-workspace",
+   "linear",
+   "slack"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Design"
+  ],
+  "description": "Turns a Figma frame into a build spec, and audits your components, tokens, and motion. Builds screens from a brief too, and works from a pasted link when Figma…"
+ },
+ {
+  "slug": "flora",
+  "profile": "grok-flora",
+  "name": "Flora",
+  "skills": 4,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Personal"
+  ],
+  "description": "Flora keeps a private houseplant care log and weekly reminders. She builds a plant journal on her computer that you can page through, and your plants do not co…"
+ },
+ {
+  "slug": "follow-through-agent",
+  "profile": "grok-follow-through-agent",
+  "name": "GTM Loop Closer",
+  "skills": 5,
+  "routines": 1,
+  "integrations": [
+   "Salesforce",
+   "Gmail",
+   "Google Calendar",
+   "Slack",
+   "Granola",
+   "Notion",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Finds promises, follow-ups, and customer details left behind in meetings, email, Slack, CRM, or task tools. Shows the evidence and prepares the reply, task, or…"
+ },
+ {
+  "slug": "frank",
+  "profile": "grok-frank",
+  "name": "frank",
+  "skills": 0,
+  "routines": 4,
+  "integrations": [
+   "Google Calendar",
+   "Gmail",
+   "Slack",
+   "Notion",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Operations"
+  ],
+  "description": "EA chief-of-staff bot for exec support: conference rooms, interview prep, leadership outreach, Slack channel inventories, sheet↔calendar checks, and birthday/a…"
+ },
+ {
+  "slug": "fuse",
+  "profile": "grok-fuse",
+  "name": "Ad Spend Watch",
+  "skills": 9,
+  "routines": 3,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "hex",
+   "datadog",
+   "sentry",
+   "figma",
+   "Gmail",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Watches your ad spend and performance and flags what's breaking before it burns budget. Works from a pasted export, and never pauses a campaign without your ye…"
+ },
+ {
+  "slug": "haggle-bot",
+  "profile": "grok-haggle-bot",
+  "name": "Haggle Bot",
+  "skills": 6,
+  "routines": 2,
+  "integrations": [
+   "Ramp",
+   "Google Sheets",
+   "Gmail",
+   "Slack",
+   "Notion",
+   "Google Drive",
+   "Granola"
+  ],
+  "categories": [
+   "From Grok Bot Team"
+  ],
+  "description": "Inventories your SaaS spend from Ramp and bills, finds evidence-backed savings (unused seats, duplicates, cheaper alternatives), and drafts vendor counters for…"
+ },
+ {
+  "slug": "hiring-activity-monitor",
+  "profile": "grok-hiring-activity-monitor",
+  "name": "Hiring Signals",
+  "skills": 3,
+  "routines": 1,
+  "integrations": [
+   "Google Sheets",
+   "Notion",
+   "Slack",
+   "Salesforce"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Tracks hiring activity across selected companies and job sources. Highlights meaningful changes, matches them to accounts and owners, and passes the right cont…"
+ },
+ {
+  "slug": "home-robots",
+  "profile": "grok-home-robots",
+  "name": "Home robots",
+  "skills": 7,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Personal"
+  ],
+  "description": "Control home robots from chat: a Segway Navimow, a Matic vacuum, and other official vacuums, mowers, and Matter robots. Connect each once, then say start, paus…"
+ },
+ {
+  "slug": "human-copywriter",
+  "profile": "grok-human-copywriter",
+  "name": "Copy Humanizer",
+  "skills": 7,
+  "routines": 1,
+  "integrations": [
+   "notion-workspace",
+   "slack",
+   "figma",
+   "linear",
+   "Gmail"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Edits and rewrites drafts, emails, and pages so they read like a person wrote them. Keeps your voice, shows every change and why, and never invents a fact."
+ },
+ {
+  "slug": "image-gen-bot",
+  "profile": "grok-image-gen-bot",
+  "name": "Stills & Clips Desk",
+  "skills": 6,
+  "routines": 1,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "figma",
+   "linear"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Pulls stills, thumbnails, and short clips out of your footage, sized for where they go. Cleans up screenshots for docs too, and writes the caption and alt text."
+ },
+ {
+  "slug": "imogen",
+  "profile": "grok-imogen",
+  "name": "Imogen",
+  "skills": 0,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Design"
+  ],
+  "description": "Imogen the Impala Image Interpreter writes brief, copyable alt text focused on the most important part of an image, so images are accessible to blind people."
+ },
+ {
+  "slug": "import-bot",
+  "profile": "grok-import-bot",
+  "name": "Import Bot",
+  "skills": 20,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "From Grok Bot Team",
+   "Personal"
+  ],
+  "description": "Brings your setup from Claude Cowork, Codex, ChatGPT, OpenClaw, and Hermes into Grok Bot, then creates the expert bots that cover it or adds to the bots you al…"
+ },
+ {
+  "slug": "last30days",
+  "profile": "grok-last30days",
+  "name": "last30days",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Product",
+   "Marketing"
+  ],
+  "description": "Research what people actually say about any topic in the last 30 days. Installs the latest last30days skill from GitHub, walks first-run setup (ScrapeCreators…"
+ },
+ {
+  "slug": "leadsworth",
+  "profile": "grok-leadsworth",
+  "name": "Lead Pipeline Desk",
+  "skills": 7,
+  "routines": 2,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "hex",
+   "Databricks SQL",
+   "Gmail",
+   "Google Sheets",
+   "Salesforce"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Scores your inbound leads, merges duplicates, assigns an owner, and flags what's stuck. Works from a CRM export, a sheet, or a paste, and never sends anything…"
+ },
+ {
+  "slug": "love",
+  "profile": "grok-love",
+  "name": "Love ❤️",
+  "skills": 0,
+  "routines": 3,
+  "integrations": [
+   "Google Calendar"
+  ],
+  "categories": [
+   "Personal"
+  ],
+  "description": "Takes the admin out of being a good Partner so the attention can go where it counts. Reminds, researches, and queues dates, tables, and presents; you book, buy…"
+ },
+ {
+  "slug": "luma-pages",
+  "profile": "grok-luma-pages",
+  "name": "Luma Pages",
+  "skills": 0,
+  "routines": 0,
+  "integrations": [
+   "Notion"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Builds and updates private Luma event pages for field marketers — copy, branding, registration settings, capacity and waitlist, and registration-list hygiene.…"
+ },
+ {
+  "slug": "market-researcher",
+  "profile": "grok-market-researcher",
+  "name": "Market Researcher",
+  "skills": 10,
+  "routines": 2,
+  "integrations": [
+   "X",
+   "Google Sheets",
+   "Google Drive",
+   "Slack"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Tracks how competitors market: their ads and creative, landing pages, offers, pricing, channel mix, search overlap, and content cadence, then delivers a weekly…"
+ },
+ {
+  "slug": "marketing-analyst",
+  "profile": "grok-marketing-analyst",
+  "name": "Marketing Analyst",
+  "skills": 9,
+  "routines": 3,
+  "integrations": [
+   "Google Sheets",
+   "Google Drive",
+   "Gmail",
+   "Slack"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Turns your ad platform exports into weekly and monthly paid media reports with commentary, answers reporting asks with the real number and its source, and watc…"
+ },
+ {
+  "slug": "marketing-project-manager",
+  "profile": "grok-marketing-project-manager",
+  "name": "Project Manager",
+  "skills": 7,
+  "routines": 2,
+  "integrations": [
+   "Linear",
+   "Notion",
+   "Slack",
+   "Google Drive",
+   "Google Calendar"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Turns a campaign or launch goal into a dated plan across research, positioning, landing pages, ads, and analytics, then tracks every work item, chases status w…"
+ },
+ {
+  "slug": "mr-toms",
+  "profile": "grok-mr-toms",
+  "name": "Recruiting Coordinator",
+  "skills": 8,
+  "routines": 7,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "figma",
+   "Gmail",
+   "Google Calendar",
+   "Granola",
+   "Google Sheets",
+   "Ashby"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Recruiting & People"
+  ],
+  "description": "Schedules interview loops, preps your interviewers, and chases what's stalled. Works from your calendar or a pasted list, and never emails a candidate without…"
+ },
+ {
+  "slug": "nightly-audit-engineer",
+  "profile": "grok-nightly-audit-engineer",
+  "name": "Nightly Audit Engineer",
+  "skills": 0,
+  "routines": 1,
+  "integrations": [],
+  "categories": [
+   "From Grok Bot Team",
+   "Engineering"
+  ],
+  "description": "A nightly engineering auditor that researches a whole codebase, then ships one cleanup per area. Built for teams that want a research-then-spread-out cleanup h…"
+ },
+ {
+  "slug": "nyc-parent",
+  "profile": "grok-nyc-parent",
+  "name": "NYC Parent",
+  "skills": 0,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Personal"
+  ],
+  "description": "A family chief of staff for New York City parents. It tracks school, calendar, activities, and household logistics, turns incoming information into next action…"
+ },
+ {
+  "slug": "office-ops-desk",
+  "profile": "grok-office-ops-desk",
+  "name": "Office Ops Desk",
+  "skills": 7,
+  "routines": 3,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "Gmail",
+   "Google Calendar",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Operations"
+  ],
+  "description": "Tracks office shipments, facilities issues, and team birthdays, then writes the digests. Works from a pasted list or a spreadsheet, and never sends without you."
+ },
+ {
+  "slug": "overheard",
+  "profile": "grok-overheard",
+  "name": "Overheard",
+  "skills": 2,
+  "routines": 1,
+  "integrations": [
+   "X",
+   "Slack"
+  ],
+  "categories": [],
+  "description": "Watches Reddit, Hacker News, news sites, and X for third-party mentions of your name, brand, and URLs, then sends a short weekday digest when something clears…"
+ },
+ {
+  "slug": "performance-marketer",
+  "profile": "grok-performance-marketer",
+  "name": "Performance Marketer",
+  "skills": 8,
+  "routines": 1,
+  "integrations": [
+   "Google Sheets",
+   "Google Drive",
+   "Slack"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Turns approved ad copy into paused campaign shells for messaging tests in the ad platforms the user signs in to, with a review sheet they approve first and a s…"
+ },
+ {
+  "slug": "pfp-bot",
+  "profile": "grok-pfp-bot",
+  "name": "Pfp Bot",
+  "skills": 8,
+  "routines": 0,
+  "integrations": [
+   "X"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Personal"
+  ],
+  "description": "Turns your X photo, an upload, a selfie, or a pet pic into a tiny Grokbot-style icon with capsule eyes that keeps the hair, colors, and signature look. Style a…"
+ },
+ {
+  "slug": "pg",
+  "profile": "grok-pg",
+  "name": "Outbound Prospecting",
+  "skills": 8,
+  "routines": 3,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "Gmail",
+   "Google Sheets",
+   "X",
+   "Salesforce"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Finds prospects that match your ideal customer, then drafts a first message to each one. Every name is researched on the public web, and nothing sends without…"
+ },
+ {
+  "slug": "pipeline-health-and-forecast",
+  "profile": "grok-pipeline-health-and-forecast",
+  "name": "Pipeline Pulse",
+  "skills": 3,
+  "routines": 1,
+  "integrations": [
+   "Salesforce",
+   "Gmail",
+   "Slack",
+   "Granola",
+   "Notion",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Scans your full pipeline for movement, stale next steps, forecast risk, and CRM gaps. Shows what changed across the book and drafts the updates needed to keep…"
+ },
+ {
+  "slug": "pitch-deck-coach",
+  "profile": "grok-pitch-deck-coach",
+  "name": "Pitch Deck Coach",
+  "skills": 4,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Sales"
+  ],
+  "description": "Reviews a pitch deck and reports what an investor is likely to understand, believe, question, and remember, then helps strengthen the story, evidence, and slid…"
+ },
+ {
+  "slug": "pm-bot",
+  "profile": "grok-pm-bot",
+  "name": "PM bot",
+  "skills": 3,
+  "routines": 1,
+  "integrations": [],
+  "categories": [
+   "Product"
+  ],
+  "description": "Acts as your PM. Writes the dated cut: what's in, what's out, and how you'll know it's done. Engineering doesn't start until you approve it."
+ },
+ {
+  "slug": "product-idea-stress-test",
+  "profile": "grok-product-idea-stress-test",
+  "name": "Product Idea Stress Test",
+  "skills": 3,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Product"
+  ],
+  "description": "Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to…"
+ },
+ {
+  "slug": "product-marketer",
+  "profile": "grok-product-marketer",
+  "name": "Product Marketer",
+  "skills": 9,
+  "routines": 1,
+  "integrations": [
+   "Google Drive",
+   "Google Sheets",
+   "Notion",
+   "X"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Learns your product, brand, and market, turns competitive research into positioning principles every message is measured against, and drafts landing page, ads,…"
+ },
+ {
+  "slug": "projects-manager",
+  "profile": "grok-projects-manager",
+  "name": "Projects Manager",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [
+   "Notion",
+   "Slack"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Engineering"
+  ],
+  "description": "Runs your team's projects from Notion: one row per project, a channel per project, and tasks your specialist bots claim. You decide, agents execute, and it nev…"
+ },
+ {
+  "slug": "prospector",
+  "profile": "grok-prospector",
+  "name": "GTM Prospecting",
+  "skills": 3,
+  "routines": 1,
+  "integrations": [
+   "Gmail",
+   "Google Sheets",
+   "Notion",
+   "Salesforce"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Turns an ideal customer profile into a focused prospect list, adds useful context, and checks for existing relationships. Drafts first-touch email and LinkedIn…"
+ },
+ {
+  "slug": "proto-bot",
+  "profile": "grok-proto-bot",
+  "name": "Proto Bot",
+  "skills": 9,
+  "routines": 2,
+  "integrations": [
+   "Figma",
+   "Slack",
+   "X"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Product"
+  ],
+  "description": "Turns your daily ideas into live, shareable prototypes in your real app, built as draft pull requests with click-path screenshots and a short video, plus Figma…"
+ },
+ {
+  "slug": "qa-bot",
+  "profile": "grok-qa-bot",
+  "name": "QA bot",
+  "skills": 3,
+  "routines": 1,
+  "integrations": [
+   "Vercel"
+  ],
+  "categories": [
+   "Engineering"
+  ],
+  "description": "Acts as your QA on the live deploy: runs the acceptance checklist and says pass or fail before you ship."
+ },
+ {
+  "slug": "researchy",
+  "profile": "grok-researchy",
+  "name": "Researchy",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Engineering"
+  ],
+  "description": "A research and fact-check desk that runs every pass on the latest Grok model with live web search. For anyone who needs sourced, dated claims instead of a trai…"
+ },
+ {
+  "slug": "sable-game-art",
+  "profile": "grok-sable-game-art",
+  "name": "Game Art Director",
+  "skills": 6,
+  "routines": 2,
+  "integrations": [
+   "figma",
+   "notion-workspace",
+   "slack",
+   "linear"
+  ],
+  "categories": [
+   "Design"
+  ],
+  "description": "Turns a game concept into a style guide, palettes, and prompt sheets for your image tool. Slices sprite sheets and checks your art for palette and grid drift."
+ },
+ {
+  "slug": "sales-call-coach",
+  "profile": "grok-sales-call-coach",
+  "name": "Sales Call Coach",
+  "skills": 8,
+  "routines": 2,
+  "integrations": [
+   "notion-workspace",
+   "slack",
+   "linear",
+   "Gong",
+   "Google Calendar"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Scores your sales calls and tells you what to fix before the next one. Works from a pasted transcript or an uploaded recording."
+ },
+ {
+  "slug": "seed-a91e4c",
+  "profile": "grok-seed-a91e4c",
+  "name": "SWE",
+  "skills": 7,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Engineering"
+  ],
+  "description": "Cursor's software engineer bot: writes code, triages issues, monitors production, and more."
+ },
+ {
+  "slug": "sell-bot",
+  "profile": "grok-sell-bot",
+  "name": "Sell Bot",
+  "skills": 11,
+  "routines": 10,
+  "integrations": [
+   "Gmail",
+   "Google Calendar",
+   "Granola",
+   "Google Sheets",
+   "Slack",
+   "X"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Works your whole customer journey: outreach in your voice, booked calls with prep and follow-ups, proposals and contracts, then activation, support and billing…"
+ },
+ {
+  "slug": "seo-aeo-desk",
+  "profile": "grok-seo-aeo-desk",
+  "name": "SEO & AEO Desk",
+  "skills": 7,
+  "routines": 3,
+  "integrations": [
+   "notion-workspace",
+   "slack",
+   "linear",
+   "hex",
+   "Profound",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Works from a pasted keyword list or your Search Console."
+ },
+ {
+  "slug": "sequencer",
+  "profile": "grok-sequencer",
+  "name": "Sequencer",
+  "skills": 9,
+  "routines": 4,
+  "integrations": [
+   "Gmail",
+   "Google Sheets",
+   "Salesforce",
+   "Google Calendar",
+   "Slack"
+  ],
+  "categories": [
+   "Sales"
+  ],
+  "description": "Runs outbound as a staff function: queues prospects that match your ICP, keeps sequence state on your tracker, and stages every touch as a draft in your voice…"
+ },
+ {
+  "slug": "sherlock",
+  "profile": "grok-sherlock",
+  "name": "Talent Discovery",
+  "skills": 9,
+  "routines": 2,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "figma",
+   "Gmail",
+   "Google Sheets",
+   "Ashby"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Recruiting & People"
+  ],
+  "description": "Finds candidates for open roles that match your criteria and aren't already in your ATS."
+ },
+ {
+  "slug": "signal-prospector",
+  "profile": "grok-signal-prospector",
+  "name": "Signal Prospector",
+  "skills": 5,
+  "routines": 1,
+  "integrations": [
+   "Salesforce",
+   "HubSpot",
+   "Attio",
+   "Mixpanel",
+   "X",
+   "Hunter",
+   "Clay",
+   "Gmail",
+   "Slack"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. Runs on a schedule, explains every…"
+ },
+ {
+  "slug": "site-audit",
+  "profile": "grok-site-audit",
+  "name": "Site Audit",
+  "skills": 0,
+  "routines": 2,
+  "integrations": [],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics."
+ },
+ {
+  "slug": "skippy",
+  "profile": "grok-skippy",
+  "name": "skippy",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "From Grok Bot Team",
+   "Personal"
+  ],
+  "description": "A San Francisco street-cleaning assistant. Paste a Maps pin, address, or intersection and it tells you the next posted sweep on that curb. Uses public city dat…"
+ },
+ {
+  "slug": "stalk-bot",
+  "profile": "grok-stalk-bot",
+  "name": "Stalk Bot",
+  "skills": 19,
+  "routines": 3,
+  "integrations": [
+   "AgentMail",
+   "X",
+   "Gmail",
+   "Slack",
+   "Salesforce",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Product"
+  ],
+  "description": "Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changel…"
+ },
+ {
+  "slug": "startup-qa-bot",
+  "profile": "grok-startup-qa-bot",
+  "name": "Startup QA Bot",
+  "skills": 5,
+  "routines": 1,
+  "integrations": [
+   "AgentMail",
+   "GitHub",
+   "Linear"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Product"
+  ],
+  "description": "Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and whi…"
+ },
+ {
+  "slug": "tally",
+  "profile": "grok-tally",
+  "name": "Paid Media Report Desk",
+  "skills": 6,
+  "routines": 3,
+  "integrations": [
+   "slack",
+   "notion-workspace",
+   "linear",
+   "hex",
+   "Databricks SQL",
+   "Gmail",
+   "Google Sheets"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Turns your Google Ads, Meta, and LinkedIn exports into one weekly report with commentary. Answers reporting asks in Slack with real numbers, and never posts wi…"
+ },
+ {
+  "slug": "tech-demos",
+  "profile": "grok-tech-demos",
+  "name": "Tech Demos",
+  "skills": 1,
+  "routines": 1,
+  "integrations": [
+   "X"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Personal"
+  ],
+  "description": "Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a Cursor cloud agent. For an…"
+ },
+ {
+  "slug": "the-morning-newspaper",
+  "profile": "grok-the-morning-newspaper",
+  "name": "The Morning Newspaper",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "Personal"
+  ],
+  "description": "A newspaper customized to you. It pulls from your email and calendar, lays it out for you, and prints while you sleep. Created by @karenxcheng"
+ },
+ {
+  "slug": "tinkabot",
+  "profile": "grok-tinkabot",
+  "name": "tinkabot",
+  "skills": 3,
+  "routines": 0,
+  "integrations": [
+   "pstack"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Engineering"
+  ],
+  "description": "Wraps an API into a Cursor/Agent Plugin (MCP + skills). Data shape first, smallest scaffold that works, prove locally, then ask once for affiliation and publis…"
+ },
+ {
+  "slug": "tradbot-2",
+  "profile": "grok-tradbot-2",
+  "name": "Tradbot",
+  "skills": 3,
+  "routines": 5,
+  "integrations": [
+   "Gmail",
+   "Google Calendar",
+   "Slack"
+  ],
+  "categories": [],
+  "description": "Watches your personal email and calendar so school forms, bills, and RSVPs don't slip. Drafts the reply, catches the pickup clash, and never sends without you."
+ },
+ {
+  "slug": "video-editor",
+  "profile": "grok-video-editor",
+  "name": "Video Editor",
+  "skills": 5,
+  "routines": 0,
+  "integrations": [
+   "Remotion",
+   "Google Drive"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "Edits short vertical talking-head videos from your raw footage: picks the best takes, captions what you actually said, and adds B-roll, motion graphics, and mu…"
+ },
+ {
+  "slug": "warm-intro-finder",
+  "profile": "grok-warm-intro-finder",
+  "name": "GTM Connections",
+  "skills": 3,
+  "routines": 1,
+  "integrations": [
+   "Gmail",
+   "Google Calendar",
+   "Salesforce",
+   "Notion",
+   "Google Sheets",
+   "Slack"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Sales"
+  ],
+  "description": "Finds credible ways into a target account through mutual contacts, past conversations, shared history, and prior meetings. Ranks the best paths, drafts the int…"
+ },
+ {
+  "slug": "webby",
+  "profile": "grok-webby",
+  "name": "Webby",
+  "skills": 1,
+  "routines": 6,
+  "integrations": [
+   "X"
+  ],
+  "categories": [
+   "Personal"
+  ],
+  "description": "Website admin. Owns a personal site (rebuild + live fallback, exclusive long-form and newsletter) and a public weekday dashboard. Also owns newsletter sends: e…"
+ },
+ {
+  "slug": "website-ops",
+  "profile": "grok-website-ops",
+  "name": "Website Ops",
+  "skills": 8,
+  "routines": 1,
+  "integrations": [
+   "GitHub",
+   "Google Drive",
+   "Slack",
+   "Figma"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Ships website changes as pull requests from your site repo with before and after screenshots in chat, and runs evidence backed audits of SEO, content, speed, a…"
+ },
+ {
+  "slug": "writing-bot",
+  "profile": "grok-writing-bot",
+  "name": "Writing Bot",
+  "skills": 1,
+  "routines": 0,
+  "integrations": [],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "A writing partner for drafting and revising essays, emails, docs, and other prose. It uses a structured revision workflow so the result is clearer and better o…"
+ },
+ {
+  "slug": "wtd",
+  "profile": "grok-wtd",
+  "name": "WTD",
+  "skills": 6,
+  "routines": 1,
+  "integrations": [
+   "Notion",
+   "Slack",
+   "Gmail",
+   "Google Drive"
+  ],
+  "categories": [
+   "From Grok Bot Team",
+   "Marketing"
+  ],
+  "description": "WTD is a VIP hospitality planning partner for marketing ops — project-plan and status rhythm across tentpoles and ticket banks, nomination-sheet tracking, mark…"
+ },
+ {
+  "slug": "x-brief",
+  "profile": "grok-x-brief",
+  "name": "X Brief",
+  "skills": 6,
+  "routines": 2,
+  "integrations": [
+   "X",
+   "slack",
+   "notion-workspace",
+   "linear"
+  ],
+  "categories": [
+   "Marketing"
+  ],
+  "description": "Turns the accounts and topics you pick on X into one short daily brief. Reads your X connection or handles you paste, and never posts on your behalf."
+ }
+]

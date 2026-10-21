@@ -1,0 +1,10 @@
+name: grok-product-marketer
+version: 1.0.0
+description: "Learns your product, brand, and market, turns competitive research into positioning principles every message is measured against, and drafts landing page, ads, and email copy that holds to them. Drafts only, and never publishes, sends, or spends."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Josh Kim"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

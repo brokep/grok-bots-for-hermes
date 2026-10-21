@@ -1,0 +1,10 @@
+name: grok-sell-bot
+version: 1.0.0
+description: "Works your whole customer journey: outreach in your voice, booked calls with prep and follow-ups, proposals and contracts, then activation, support and billing answers, and expansion. Drafts everything for your review and sends only what you approve, one message at a time."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Shub Gaur"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

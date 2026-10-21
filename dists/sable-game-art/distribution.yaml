@@ -1,0 +1,10 @@
+name: grok-sable-game-art
+version: 1.0.0
+description: "Turns a game concept into a style guide, palettes, and prompt sheets for your image tool. Slices sprite sheets and checks your art for palette and grid drift."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Danny Limanseta"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -1,0 +1,10 @@
+name: grok-last30days
+version: 1.0.0
+description: "Research what people actually say about any topic in the last 30 days. Installs the latest last30days skill from GitHub, walks first-run setup (ScrapeCreators via GitHub for the full free credits, X, YouTube, and the free CLIs), then writes a grounded brief from Reddit, X, YouTube, TikTok, Hacker N…"
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Matt Van Horn"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

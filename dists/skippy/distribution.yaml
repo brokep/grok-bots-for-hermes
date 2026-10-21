@@ -1,0 +1,10 @@
+name: grok-skippy
+version: 1.0.0
+description: "A San Francisco street-cleaning assistant. Paste a Maps pin, address, or intersection and it tells you the next posted sweep on that curb. Uses public city data. Never claims a stall is legal."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Matt Palmer"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

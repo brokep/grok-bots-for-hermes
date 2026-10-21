@@ -1,0 +1,10 @@
+name: grok-warm-intro-finder
+version: 1.0.0
+description: "Finds credible ways into a target account through mutual contacts, past conversations, shared history, and prior meetings. Ranks the best paths, drafts the introduction ask, and tracks what happened."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Brian Joseph"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

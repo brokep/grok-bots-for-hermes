@@ -1,0 +1,10 @@
+name: grok-ebr-value-deck-builder
+version: 1.0.0
+description: "Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file. Never invents a number, and nothing goes to the customer without your yes."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Krista Letz"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

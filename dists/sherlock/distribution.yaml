@@ -1,0 +1,10 @@
+name: grok-sherlock
+version: 1.0.0
+description: "Finds candidates for open roles that match your criteria and aren't already in your ATS."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Tommy Hansen"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

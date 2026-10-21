@@ -1,0 +1,10 @@
+name: grok-webby
+version: 1.0.0
+description: "Website admin. Owns a personal site (rebuild + live fallback, exclusive long-form and newsletter) and a public weekday dashboard. Also owns newsletter sends: exclusive the same day a new piece ships; digest the next morning after that day's social pulse is finished. Create-only, no deletes. Strip A…"
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Farzad"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

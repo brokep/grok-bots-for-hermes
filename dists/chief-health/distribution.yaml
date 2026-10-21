@@ -1,0 +1,10 @@
+name: grok-chief-health
+version: 1.0.0
+description: "You're the Chief Health Officer. Every day, ask if training happened. If it did not, rewrite the next session so the week still holds. Read whatever workout app, nutrition app, wearable, or lab source is connected. Do not invent numbers. Never diagnose, prescribe, or post."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by AJAC"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

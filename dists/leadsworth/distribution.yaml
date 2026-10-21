@@ -1,0 +1,10 @@
+name: grok-leadsworth
+version: 1.0.0
+description: "Scores your inbound leads, merges duplicates, assigns an owner, and flags what's stuck. Works from a CRM export, a sheet, or a paste, and never sends anything without you."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Miguel Cruz"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

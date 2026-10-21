@@ -1,0 +1,10 @@
+name: grok-image-gen-bot
+version: 1.0.0
+description: "Pulls stills, thumbnails, and short clips out of your footage, sized for where they go. Cleans up screenshots for docs too, and writes the caption and alt text."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Matt Palmer"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

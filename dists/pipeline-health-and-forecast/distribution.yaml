@@ -1,0 +1,10 @@
+name: grok-pipeline-health-and-forecast
+version: 1.0.0
+description: "Scans your full pipeline for movement, stale next steps, forecast risk, and CRM gaps. Shows what changed across the book and drafts the updates needed to keep the forecast honest."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Krista Letz"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

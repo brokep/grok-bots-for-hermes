@@ -1,0 +1,45 @@
+{
+  "jobs": [
+    {
+      "id": "caa36c190811",
+      "name": "Principles review",
+      "prompt": "Load the `product-marketer--routine-principles-review` skill and run it now. Original schedule: Disabled by default. Mondays at 9am in the user's timezone. Re-reads the positioning principles doc and the voice profile, collects new comments and open gaps, and flags copy that drifted from the cu…. Report the result as your final response.",
+      "skills": [
+        "product-marketer--routine-principles-review"
+      ],
+      "skill": "product-marketer--routine-principles-review",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "Monday at 09:00"
+      },
+      "schedule_display": "Monday at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.393085-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.393085-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.393085-06:00"
+}

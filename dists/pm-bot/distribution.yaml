@@ -1,0 +1,10 @@
+name: grok-pm-bot
+version: 1.0.0
+description: "Acts as your PM. Writes the dated cut: what's in, what's out, and how you'll know it's done. Engineering doesn't start until you approve it."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Ulysses Ng"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

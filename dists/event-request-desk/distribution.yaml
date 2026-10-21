@@ -1,0 +1,10 @@
+name: grok-event-request-desk
+version: 1.0.0
+description: "Scores every event, sponsorship, and speaking ask, then drafts your yes or no. Works from a Slack channel or a paste, and never sends without you."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Emma Weyrauch"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

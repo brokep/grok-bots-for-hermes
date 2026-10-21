@@ -1,0 +1,10 @@
+name: grok-seo-aeo-desk
+version: 1.0.0
+description: "Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Works from a pasted keyword list or your Search Console."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Adam Tanguay"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

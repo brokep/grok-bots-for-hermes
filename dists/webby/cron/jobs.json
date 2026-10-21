@@ -1,0 +1,245 @@
+{
+  "jobs": [
+    {
+      "id": "dfc4a0b81934",
+      "name": "Daily Exclusive long-form check",
+      "prompt": "Load the `webby--routine-daily-exclusive-long-form-check` skill and run it now. Original schedule: Daily scan for new public long-form videos, write an Exclusive, fact-check, ship the site, and email the same day.. Report the result as your final response.",
+      "skills": [
+        "webby--routine-daily-exclusive-long-form-check"
+      ],
+      "skill": "webby--routine-daily-exclusive-long-form-check",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "display": "daily at 09:00"
+      },
+      "schedule_display": "daily at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.501377-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.501377-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "a72b892e0b7a",
+      "name": "Daily Digest social pulse",
+      "prompt": "Load the `webby--routine-daily-digest-social-pulse` skill and run it now. Original schedule: Email yesterday's digest first, then write today's social-pulse digest. Never email today's digest on the same run.. Report the result as your final response.",
+      "skills": [
+        "webby--routine-daily-digest-social-pulse"
+      ],
+      "skill": "webby--routine-daily-digest-social-pulse",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "display": "daily at 09:00"
+      },
+      "schedule_display": "daily at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.501377-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.501377-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "8ebb2574a2d6",
+      "name": "Site PR follow-up",
+      "prompt": "Load the `webby--routine-site-pr-follow-up` skill and run it now. Original schedule: On personal-site PR open, push, or merge: fix owned content issues; production-deploy after merge to main.. Report the result as your final response.",
+      "skills": [
+        "webby--routine-site-pr-follow-up"
+      ],
+      "skill": "webby--routine-site-pr-follow-up",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "Mondays at 09:00 (weekly default)"
+      },
+      "schedule_display": "Mondays at 09:00 (weekly default)",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.501377-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.501377-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "5d02d8de69c0",
+      "name": "Weekday hourly dashboard book",
+      "prompt": "Load the `webby--routine-weekday-hourly-dashboard-book` skill and run it now. Original schedule: Weekday intra-day public dashboard refresh at :35 (catch at :40). Backup only; fill ships are primary.. Report the result as your final response.",
+      "skills": [
+        "webby--routine-weekday-hourly-dashboard-book"
+      ],
+      "skill": "webby--routine-weekday-hourly-dashboard-book",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1-5",
+        "display": "weekdays at 09:00"
+      },
+      "schedule_display": "weekdays at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.501377-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.501377-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "5d43b39235d8",
+      "name": "Weekday close dashboard book",
+      "prompt": "Load the `webby--routine-weekday-close-dashboard-book` skill and run it now. Original schedule: Official cash-close public dashboard ship at 3:15 local, with a 3:20 catch.. Report the result as your final response.",
+      "skills": [
+        "webby--routine-weekday-close-dashboard-book"
+      ],
+      "skill": "webby--routine-weekday-close-dashboard-book",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1-5",
+        "display": "weekdays at 09:00"
+      },
+      "schedule_display": "weekdays at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.501377-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.501377-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "3910e110e58f",
+      "name": "Post-fill dashboard ship",
+      "prompt": "Load the `webby--routine-post-fill-dashboard-ship` skill and run it now. Original schedule: Ship the public dashboard immediately after a desk fill or close. Morning sweep is a safety net only.. Report the result as your final response.",
+      "skills": [
+        "webby--routine-post-fill-dashboard-ship"
+      ],
+      "skill": "webby--routine-post-fill-dashboard-ship",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "Mondays at 09:00 (weekly default)"
+      },
+      "schedule_display": "Mondays at 09:00 (weekly default)",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.501377-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.501377-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.501377-06:00"
+}

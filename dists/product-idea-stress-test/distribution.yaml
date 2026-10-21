@@ -1,0 +1,10 @@
+name: grok-product-idea-stress-test
+version: 1.0.0
+description: "Investigates a product or startup idea for founders. Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to test next."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Hiten Shah"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

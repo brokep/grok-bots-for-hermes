@@ -1,0 +1,10 @@
+name: grok-tally
+version: 1.0.0
+description: "Turns your Google Ads, Meta, and LinkedIn exports into one weekly report with commentary. Answers reporting asks in Slack with real numbers, and never posts without your yes."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Miguel Cruz"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

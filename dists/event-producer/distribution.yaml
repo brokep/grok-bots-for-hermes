@@ -1,0 +1,10 @@
+name: grok-event-producer
+version: 1.0.0
+description: "Turns your event details into a run of show, guest list, and day-of checklist. Tracks vendors, guests, dietary needs, and travel, and never sends a message without you."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Jenna Nanpei"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

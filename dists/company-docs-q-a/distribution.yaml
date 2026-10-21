@@ -1,0 +1,10 @@
+name: grok-company-docs-q-a
+version: 1.0.0
+description: "Answers product and how-to questions from live docs first, then connected knowledge sources, and always cites sources. Built for anyone who wants a trustworthy internal knowledge bot."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Anoop Baliga"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

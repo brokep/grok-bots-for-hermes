@@ -1,0 +1,10 @@
+name: grok-deal-qualification
+version: 1.0.0
+description: "Checks every deal that moved stage against your qualification criteria using the actual call transcripts. Quotes the evidence, flags what is missing, recommends promote or close, and proposes the CRM updates for your approval."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Jon Grigull"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

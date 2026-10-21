@@ -1,0 +1,10 @@
+name: grok-writing-bot
+version: 1.0.0
+description: "A writing partner for drafting and revising essays, emails, docs, and other prose. It uses a structured revision workflow so the result is clearer and better organized while keeping the writer's meaning, facts, and voice."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Matt Palmer"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -1,0 +1,10 @@
+name: grok-signal-prospector
+version: 1.0.0
+description: "Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. Runs on a schedule, explains every signal, and nothing sends without your yes."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Krista Letz"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

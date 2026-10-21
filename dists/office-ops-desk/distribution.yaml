@@ -1,0 +1,10 @@
+name: grok-office-ops-desk
+version: 1.0.0
+description: "Tracks office shipments, facilities issues, and team birthdays, then writes the digests. Works from a pasted list or a spreadsheet, and never sends without you."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Erika Cabrera"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

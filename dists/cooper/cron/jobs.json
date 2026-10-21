@@ -1,0 +1,125 @@
+{
+  "jobs": [
+    {
+      "id": "41377da7f9d1",
+      "name": "Daily AI/tech/VC briefing",
+      "prompt": "Load the `cooper--routine-daily-ai-tech-vc-briefing` skill and run it now. Original schedule: Every day at 8:00 AM — tight Slack DM briefing of top AI/tech/VC stories.. Report the result as your final response.",
+      "skills": [
+        "cooper--routine-daily-ai-tech-vc-briefing"
+      ],
+      "skill": "cooper--routine-daily-ai-tech-vc-briefing",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "display": "daily at 08:00"
+      },
+      "schedule_display": "daily at 08:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.181788-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.181788-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "7fde206665c7",
+      "name": "Midday competitor alert",
+      "prompt": "Load the `cooper--routine-midday-competitor-alert` skill and run it now. Original schedule: Weekdays at 1:00 PM — Slack DM only if a top competitor/hire/priority-company story clears the bar; otherwise stay silent.. Report the result as your final response.",
+      "skills": [
+        "cooper--routine-midday-competitor-alert"
+      ],
+      "skill": "cooper--routine-midday-competitor-alert",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * 1-5",
+        "display": "weekdays at 13:00"
+      },
+      "schedule_display": "weekdays at 13:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.181788-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.181788-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "4261a718ff31",
+      "name": "Afternoon competitor alert",
+      "prompt": "Load the `cooper--routine-afternoon-competitor-alert` skill and run it now. Original schedule: Weekdays at 4:00 PM — Slack DM only if a top competitor/hire/priority-company story clears the bar; otherwise stay silent.. Report the result as your final response.",
+      "skills": [
+        "cooper--routine-afternoon-competitor-alert"
+      ],
+      "skill": "cooper--routine-afternoon-competitor-alert",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 16 * * 1-5",
+        "display": "weekdays at 16:00"
+      },
+      "schedule_display": "weekdays at 16:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.181788-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.181788-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.181788-06:00"
+}

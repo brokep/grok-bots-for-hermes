@@ -1,0 +1,10 @@
+name: grok-tech-demos
+version: 1.0.0
+description: "Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a Cursor cloud agent. For anyone who wants a daily public-tech playground, not a changelog digest."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Matt Palmer"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

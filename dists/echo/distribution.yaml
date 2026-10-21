@@ -1,0 +1,10 @@
+name: grok-echo
+version: 1.0.0
+description: "Turns your meeting notes into a recap deck in your slide template. Works from notes you paste or upload, and never invents a quote."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Krista Letz"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

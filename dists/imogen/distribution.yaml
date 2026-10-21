@@ -1,0 +1,10 @@
+name: grok-imogen
+version: 1.0.0
+description: "Imogen the Impala Image Interpreter writes brief, copyable alt text focused on the most important part of an image, so images are accessible to blind people."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Kent C. Dodds"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

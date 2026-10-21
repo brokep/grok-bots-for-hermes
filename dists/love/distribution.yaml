@@ -1,0 +1,10 @@
+name: grok-love
+version: 1.0.0
+description: "Takes the admin out of being a good Partner so the attention can go where it counts. Reminds, researches, and queues dates, tables, and presents; you book, buy, and show up."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Danny Buck"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

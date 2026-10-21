@@ -1,0 +1,165 @@
+{
+  "jobs": [
+    {
+      "id": "a35e9e27ab5b",
+      "name": "Exec interview-prep reminder",
+      "prompt": "Load the `frank--routine-exec-interview-prep-reminder` skill and run it now. Original schedule: Weekdays: check today's interviews vs a Notion prep doc.. Report the result as your final response.",
+      "skills": [
+        "frank--routine-exec-interview-prep-reminder"
+      ],
+      "skill": "frank--routine-exec-interview-prep-reminder",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1-5",
+        "display": "weekdays at 09:00"
+      },
+      "schedule_display": "weekdays at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.269002-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.269002-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "88223f46a81e",
+      "name": "Exec conference-room rundown (2 business days ahead)",
+      "prompt": "Load the `frank--routine-exec-conference-room-rundown-2-business-days-ahe` skill and run it now. Original schedule: Weekday afternoon: room chart for two business days out.. Report the result as your final response.",
+      "skills": [
+        "frank--routine-exec-conference-room-rundown-2-business-days-ahe"
+      ],
+      "skill": "frank--routine-exec-conference-room-rundown-2-business-days-ahe",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * 1-5",
+        "display": "weekdays at 12:00"
+      },
+      "schedule_display": "weekdays at 12:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.269002-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.269002-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "6542dd4aee9b",
+      "name": "Exec same-day conference-room check",
+      "prompt": "Load the `frank--routine-exec-same-day-conference-room-check` skill and run it now. Original schedule: Weekday morning: same-day room chart for overnight changes.. Report the result as your final response.",
+      "skills": [
+        "frank--routine-exec-same-day-conference-room-check"
+      ],
+      "skill": "frank--routine-exec-same-day-conference-room-check",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * 1-5",
+        "display": "weekdays at 21:00"
+      },
+      "schedule_display": "weekdays at 21:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.269002-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.269002-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "bab55f1850d6",
+      "name": "Weekly leadership-outreach check",
+      "prompt": "Load the `frank--routine-weekly-leadership-outreach-check` skill and run it now. Original schedule: Friday: Slack outreach channel vs tracker for one exec.. Report the result as your final response.",
+      "skills": [
+        "frank--routine-weekly-leadership-outreach-check"
+      ],
+      "skill": "frank--routine-weekly-leadership-outreach-check",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 5",
+        "display": "Friday at 09:00"
+      },
+      "schedule_display": "Friday at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.269002-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.269002-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.269002-06:00"
+}

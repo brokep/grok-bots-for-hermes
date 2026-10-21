@@ -1,0 +1,10 @@
+name: grok-customer-call-coach
+version: 1.0.0
+description: "Briefs you before customer calls and coaches you after based on your performance."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Anoop Baliga"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

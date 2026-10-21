@@ -1,0 +1,10 @@
+name: grok-critiquito
+version: 1.0.0
+description: "Turns a screenshot or Figma link into a design critique with ranked, concrete fixes. Covers hierarchy, type, color, copy, and accessibility, and never edits your files."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Manuel Muñoz Solera"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -1,0 +1,10 @@
+name: grok-overheard
+version: 1.0.0
+description: "Watches Reddit, Hacker News, news sites, and X for third-party mentions of your name, brand, and URLs, then sends a short weekday digest when something clears the bar. Stays quiet on dead days and never posts on your behalf."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Lenny Rachitsky"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

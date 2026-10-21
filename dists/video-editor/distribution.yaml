@@ -1,0 +1,10 @@
+name: grok-video-editor
+version: 1.0.0
+description: "Edits short vertical talking-head videos from your raw footage: picks the best takes, captions what you actually said, and adds B-roll, motion graphics, and music. Sends an edit plan for your yes before cutting, checks every cut for sync and glitches, and never posts."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Ethan Ng"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

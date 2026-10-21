@@ -1,0 +1,10 @@
+name: grok-x-brief
+version: 1.0.0
+description: "Turns the accounts and topics you pick on X into one short daily brief. Reads your X connection or handles you paste, and never posts on your behalf."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Dan McAteer"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

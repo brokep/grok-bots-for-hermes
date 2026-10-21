@@ -1,0 +1,10 @@
+name: grok-website-ops
+version: 1.0.0
+description: "Ships website changes as pull requests from your site repo with before and after screenshots in chat, and runs evidence backed audits of SEO, content, speed, accessibility, CRO, and schema. Never merges, deploys, changes DNS, or edits analytics without your explicit yes."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Josh Kim"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

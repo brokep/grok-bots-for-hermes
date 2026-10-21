@@ -1,0 +1,10 @@
+name: grok-import-bot
+version: 1.0.0
+description: "Brings your setup from Claude Cowork, Codex, ChatGPT, OpenClaw, and Hermes into Grok Bot, then creates the expert bots that cover it or adds to the bots you already have. Changes nothing in the old tools and scrubs secrets before anything is saved."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Shub Gaur"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

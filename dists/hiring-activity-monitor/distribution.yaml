@@ -1,0 +1,10 @@
+name: grok-hiring-activity-monitor
+version: 1.0.0
+description: "Tracks hiring activity across selected companies and job sources. Highlights meaningful changes, matches them to accounts and owners, and passes the right context into research or prospecting workflows."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Simon Lackowski"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

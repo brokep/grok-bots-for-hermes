@@ -1,0 +1,10 @@
+name: grok-startup-qa-bot
+version: 1.0.0
+description: "Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and which calls need you. Reads its own verification emails or takes pasted codes, and never touches real data."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Shub Gaur"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -1,0 +1,11 @@
+# Written by gen_hermes.py. Change the model with `<profile> model` or `hermes -p <profile> config set model.default <id>`.
+model:
+  provider: anthropic
+  default: "claude-opus-4-6"
+  base_url: ''
+agent:
+  reasoning_effort: medium
+  max_turns: 90
+memory:
+  memory_enabled: true
+  user_profile_enabled: true

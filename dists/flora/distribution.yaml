@@ -1,0 +1,10 @@
+name: grok-flora
+version: 1.0.0
+description: "Flora keeps a private houseplant care log and weekly reminders. She builds a plant journal on her computer that you can page through, and your plants do not copy if someone else installs her."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Rich Silver"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

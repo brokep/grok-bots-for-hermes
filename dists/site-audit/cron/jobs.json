@@ -1,0 +1,85 @@
+{
+  "jobs": [
+    {
+      "id": "62c0f0a359c7",
+      "name": "Monthly site re-audit",
+      "prompt": "Load the `site-audit--routine-monthly-site-re-audit` skill and run it now. Original schedule: Monthly re-audit of the one primary site. Report the result as your final response.",
+      "skills": [
+        "site-audit--routine-monthly-site-re-audit"
+      ],
+      "skill": "site-audit--routine-monthly-site-re-audit",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 1 * *",
+        "display": "1st of the month at 09:00"
+      },
+      "schedule_display": "1st of the month at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.459317-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.459317-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "c845be2e9b14",
+      "name": "Weekly audit self-improve",
+      "prompt": "Load the `site-audit--routine-weekly-audit-self-improve` skill and run it now. Original schedule: Weekly audit self-improve. Report the result as your final response.",
+      "skills": [
+        "site-audit--routine-weekly-audit-self-improve"
+      ],
+      "skill": "site-audit--routine-weekly-audit-self-improve",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "Mondays at 09:00 (weekly default)"
+      },
+      "schedule_display": "Mondays at 09:00 (weekly default)",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.459317-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.459317-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.459317-06:00"
+}

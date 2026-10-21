@@ -1,0 +1,10 @@
+name: grok-marketing-analyst
+version: 1.0.0
+description: "Turns your ad platform exports into weekly and monthly paid media reports with commentary, answers reporting asks with the real number and its source, and watches spend against the thresholds you set. Never touches a campaign, never changes a budget, and never sends without your yes."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Josh Kim"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

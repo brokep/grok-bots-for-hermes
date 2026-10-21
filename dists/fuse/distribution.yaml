@@ -1,0 +1,10 @@
+name: grok-fuse
+version: 1.0.0
+description: "Watches your ad spend and performance and flags what's breaking before it burns budget. Works from a pasted export, and never pauses a campaign without your yes."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Miguel Cruz"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

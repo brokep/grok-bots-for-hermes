@@ -1,0 +1,85 @@
+{
+  "jobs": [
+    {
+      "id": "4ffacab73d86",
+      "name": "Weekly marketing brief",
+      "prompt": "Load the `market-researcher--routine-weekly-marketing-brief` skill and run it now. Original schedule: Disabled by default. Monday at 8am in the user's timezone, or any day and time the user picks. Checks every competitor's ads, landing pages and offers, pricing and promotions, channel mix, search ove…. Report the result as your final response.",
+      "skills": [
+        "market-researcher--routine-weekly-marketing-brief"
+      ],
+      "skill": "market-researcher--routine-weekly-marketing-brief",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * 1",
+        "display": "Monday at 08:00"
+      },
+      "schedule_display": "Monday at 08:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.326786-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.326786-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "b863f5c222f8",
+      "name": "Monthly strategy read",
+      "prompt": "Load the `market-researcher--routine-monthly-strategy-read` skill and run it now. Original schedule: Disabled by default. The 1st of the month at 10am in the user's timezone. Rolls the month of weekly briefs and the user's own traffic, query, and auction numbers into where the market moved, where th…. Report the result as your final response.",
+      "skills": [
+        "market-researcher--routine-monthly-strategy-read"
+      ],
+      "skill": "market-researcher--routine-monthly-strategy-read",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 1 * *",
+        "display": "1st of the month at 10:00"
+      },
+      "schedule_display": "1st of the month at 10:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.326786-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.326786-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.326786-06:00"
+}

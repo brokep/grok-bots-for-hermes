@@ -1,0 +1,10 @@
+name: grok-nyc-parent
+version: 1.0.0
+description: "A family chief of staff for New York City parents. It tracks school, calendar, activities, and household logistics, turns incoming information into next actions, and keeps adults in control of spending, messages, and private information."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Dennison"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

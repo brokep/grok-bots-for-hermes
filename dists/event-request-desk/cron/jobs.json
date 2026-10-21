@@ -1,0 +1,125 @@
+{
+  "jobs": [
+    {
+      "id": "6599be295a13",
+      "name": "Weekday intake sweep",
+      "prompt": "Load the `event-request-desk--routine-weekday-intake-sweep` skill and run it now. Original schedule: Every weekday morning, logs and scores every event ask that came in overnight and names the ones that need a decision today.. Report the result as your final response.",
+      "skills": [
+        "event-request-desk--routine-weekday-intake-sweep"
+      ],
+      "skill": "event-request-desk--routine-weekday-intake-sweep",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * 1-5",
+        "display": "weekdays at 21:00"
+      },
+      "schedule_display": "weekdays at 21:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.252831-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.252831-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "1fb0433994a6",
+      "name": "Weekly queue review",
+      "prompt": "Load the `event-request-desk--routine-weekly-queue-review` skill and run it now. Original schedule: Every Monday morning, the whole event request queue grouped by what needs a decision, what is stale, and what is already committed.. Report the result as your final response.",
+      "skills": [
+        "event-request-desk--routine-weekly-queue-review"
+      ],
+      "skill": "event-request-desk--routine-weekly-queue-review",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "Monday at 09:00"
+      },
+      "schedule_display": "Monday at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.252831-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.252831-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "408c08c23375",
+      "name": "Weekly commitment check",
+      "prompt": "Load the `event-request-desk--routine-weekly-commitment-check` skill and run it now. Original schedule: Every Thursday morning, what the team still owes organizers for events already said yes to, with anything overdue first.. Report the result as your final response.",
+      "skills": [
+        "event-request-desk--routine-weekly-commitment-check"
+      ],
+      "skill": "event-request-desk--routine-weekly-commitment-check",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 4",
+        "display": "Thursday at 09:00"
+      },
+      "schedule_display": "Thursday at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.252831-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.252831-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.252831-06:00"
+}

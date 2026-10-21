@@ -1,0 +1,10 @@
+name: grok-apple-search-ads-review
+version: 1.0.0
+description: "Reviews your Apple Search Ads spend against your cost per install target. Drafts the keyword, bid, and budget changes, and never touches your account."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Chris Everett"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -1,0 +1,10 @@
+name: grok-human-copywriter
+version: 1.0.0
+description: "Edits and rewrites drafts, emails, and pages so they read like a person wrote them. Keeps your voice, shows every change and why, and never invents a fact."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Massimo De Luisa"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

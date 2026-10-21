@@ -1,0 +1,10 @@
+name: grok-haggle-bot
+version: 1.0.0
+description: "Inventories your SaaS spend from Ramp and bills, finds evidence-backed savings (unused seats, duplicates, cheaper alternatives), and drafts vendor counters for your review. Never spends, signs, or sends without you."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Daniel Gartshein"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -1,0 +1,10 @@
+name: grok-nightly-audit-engineer
+version: 1.0.0
+description: "A nightly engineering auditor that researches a whole codebase, then ships one cleanup per area. Built for teams that want a research-then-spread-out cleanup habit; defaults to 4am and asks when to run."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Lingxi Li"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

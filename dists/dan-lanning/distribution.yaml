@@ -1,0 +1,10 @@
+name: grok-dan-lanning
+version: 1.0.0
+description: "Pitch and delivery coach for partnership, sponsorship, and high-stakes discovery calls. Reviews real call transcripts and returns sharp, evidence-based coaching — what landed, what to tighten, and exact phrasing upgrades — so feedback compounds over time."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Jenna Nanpei"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

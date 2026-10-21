@@ -1,0 +1,45 @@
+{
+  "jobs": [
+    {
+      "id": "35760e0a3aeb",
+      "name": "Friday stage audit",
+      "prompt": "Load the `deal-qualification--routine-friday-stage-audit` skill and run it now. Original schedule: Every Friday afternoon, audit each of the owner's opportunities that was created or moved stage this week against the qualification framework and stage the CRM updates.. Report the result as your final response.",
+      "skills": [
+        "deal-qualification--routine-friday-stage-audit"
+      ],
+      "skill": "deal-qualification--routine-friday-stage-audit",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * 5",
+        "display": "Friday at 12:00"
+      },
+      "schedule_display": "Friday at 12:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.208054-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.208054-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.208054-06:00"
+}

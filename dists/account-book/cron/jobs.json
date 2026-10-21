@@ -1,0 +1,125 @@
+{
+  "jobs": [
+    {
+      "id": "1ce6eb333339",
+      "name": "Weekly account signals",
+      "prompt": "Load the `account-book--routine-weekly-account-signals` skill and run it now. Original schedule: Every Monday morning, checks your accounts for public news, funding, leadership, and hiring signals, and reports only what matters to the deal.. Report the result as your final response.",
+      "skills": [
+        "account-book--routine-weekly-account-signals"
+      ],
+      "skill": "account-book--routine-weekly-account-signals",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "Monday at 09:00"
+      },
+      "schedule_display": "Monday at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.134098-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.134098-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "b3a11f955587",
+      "name": "Weekday call prep",
+      "prompt": "Load the `account-book--routine-weekday-call-prep` skill and run it now. Original schedule: Every weekday morning, a short prep on the external calls that day with what changed, who is on them, and what is still open.. Report the result as your final response.",
+      "skills": [
+        "account-book--routine-weekday-call-prep"
+      ],
+      "skill": "account-book--routine-weekday-call-prep",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1-5",
+        "display": "weekdays at 09:00"
+      },
+      "schedule_display": "weekdays at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.134098-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.134098-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "f2a7806a431c",
+      "name": "Friday open threads review",
+      "prompt": "Load the `account-book--routine-friday-open-threads-review` skill and run it now. Original schedule: Every Friday morning, the open threads and next steps across your accounts, with what has gone stale and what closed this week.. Report the result as your final response.",
+      "skills": [
+        "account-book--routine-friday-open-threads-review"
+      ],
+      "skill": "account-book--routine-friday-open-threads-review",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 5",
+        "display": "Friday at 09:00"
+      },
+      "schedule_display": "Friday at 09:00",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-21T11:21:03.134098-06:00",
+      "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
+      "created_at": "2026-10-21T11:21:03.134098-06:00",
+      "next_run_at": null,
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-10-21T11:21:03.134098-06:00"
+}

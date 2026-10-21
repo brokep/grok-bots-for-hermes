@@ -1,0 +1,10 @@
+name: grok-engineering-lead
+version: 1.0.0
+description: "An engineering lead that owns the loop: breaks work into Cloud Agents, chases CI, reviews, and stalls on a weekday cadence, and only pings you when something is blocked, ready to merge, or done. Best for eng leads and power users."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Lauren Tan"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

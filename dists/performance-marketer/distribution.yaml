@@ -1,0 +1,10 @@
+name: grok-performance-marketer
+version: 1.0.0
+description: "Turns approved ad copy into paused campaign shells for messaging tests in the ad platforms the user signs in to, with a review sheet they approve first and a screenshot per step. Never enables a campaign, raises a budget, adds a payment method, or spends without an explicit yes."
+hermes_requires: ">=0.14.0"
+author: "converted from the Grok Bot marketplace template by Josh Kim"
+license: "see source template on x.ai"
+env_requires:
+  - name: ANTHROPIC_API_KEY
+    description: "Anthropic API key (or run `hermes model` for Claude Max OAuth)"
+    required: true

@@ -24,7 +24,7 @@ Source: https://x.ai/bot/marketplace/bots/signal-prospector  Creator: Krista Let
 |---|---|---|
 | Monday signal digest | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, scan the week's signals across the owner's book, rank the accounts and contacts, and stage first-… |
 
-Enable with `hermes -p grok-signal-prospector cron list` then `hermes -p grok-signal-prospector cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-signal-prospector cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-signal-prospector cron resume <id>`.
 
 ## Integrations
 

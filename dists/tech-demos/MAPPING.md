@@ -20,7 +20,7 @@ Source: https://x.ai/bot/marketplace/bots/tech-demos  Creator: Matt Palmer (@mat
 |---|---|---|
 | Daily X tech scout | `0 9 * * 1-5` (weekdays at 09:00) | Weekdays at 9:00 AM. Lands paused on import. |
 
-Enable with `hermes -p grok-tech-demos cron list` then `hermes -p grok-tech-demos cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-tech-demos cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-tech-demos cron resume <id>`.
 
 ## Integrations
 

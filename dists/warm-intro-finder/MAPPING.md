@@ -22,7 +22,7 @@ Source: https://x.ai/bot/marketplace/bots/warm-intro-finder  Creator: Brian Jose
 |---|---|---|
 | Warm-path follow-through queue | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Disabled by default. Surface identified paths and intro requests whose next action is due or stalled. |
 
-Enable with `hermes -p grok-warm-intro-finder cron list` then `hermes -p grok-warm-intro-finder cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-warm-intro-finder cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-warm-intro-finder cron resume <id>`.
 
 ## Integrations
 

@@ -27,7 +27,7 @@ Source: https://x.ai/bot/marketplace/bots/marketing-project-manager  Creator: Jo
 | Weekday status check-in | `0 9 * * 1-5` (weekdays at 09:00) | Disabled by default. Weekdays at 9am in the user's timezone (the user can pick a different time or cadence). Runs one s… |
 | Friday week ahead | `0 16 * * 5` (Friday at 16:00) | Disabled by default. Fridays at 4pm in the user's timezone. Lists what is due in the next 7 days, what the user has to… |
 
-Enable with `hermes -p grok-marketing-project-manager cron list` then `hermes -p grok-marketing-project-manager cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-marketing-project-manager cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-marketing-project-manager cron resume <id>`.
 
 ## Integrations
 

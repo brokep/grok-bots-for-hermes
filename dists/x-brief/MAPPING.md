@@ -26,7 +26,7 @@ Source: https://x.ai/bot/marketplace/bots/x-brief  Creator: Dan McAteer (@daniel
 | Daily X brief | `0 9 * * *` (daily at 09:00) | Once a day at the hour you pick, reads your watch list and sends the day's items grouped by theme with a link on every… |
 | Weekly X recap | `0 9 * * 0,6` (weekends at 09:00) | Every Friday, pulls the week's briefs into the themes that held, the voices worth adding, the accounts that went quiet,… |
 
-Enable with `hermes -p grok-x-brief cron list` then `hermes -p grok-x-brief cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-x-brief cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-x-brief cron resume <id>`.
 
 ## Integrations
 

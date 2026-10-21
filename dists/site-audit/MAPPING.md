@@ -17,4 +17,4 @@ Source: https://x.ai/bot/marketplace/bots/site-audit  Creator: Shimecki (@scheem
 | Monthly site re-audit | `0 9 1 * *` (1st of the month at 09:00) | Monthly re-audit of the one primary site |
 | Weekly audit self-improve | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Weekly audit self-improve |
 
-Enable with `hermes -p grok-site-audit cron list` then `hermes -p grok-site-audit cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-site-audit cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-site-audit cron resume <id>`.

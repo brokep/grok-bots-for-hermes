@@ -28,7 +28,7 @@ Source: https://x.ai/bot/marketplace/bots/office-ops-desk  Creator: Erika Cabrer
 | Weekly facilities digest | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, the open facilities issues grouped by severity with owners and days open. |
 | Team celebrations reminder | `0 9 * * 5` (Friday at 09:00) | Every Friday morning, the birthdays and work anniversaries landing in the next 14 days. |
 
-Enable with `hermes -p grok-office-ops-desk cron list` then `hermes -p grok-office-ops-desk cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-office-ops-desk cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-office-ops-desk cron resume <id>`.
 
 ## Integrations
 

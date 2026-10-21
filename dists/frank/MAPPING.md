@@ -19,7 +19,7 @@ Source: https://x.ai/bot/marketplace/bots/frank  Creator: Natasha Kuo (@tashatwe
 | Exec same-day conference-room check | `0 21 * * 1-5` (weekdays at 21:00) | Weekday morning: same-day room chart for overnight changes. |
 | Weekly leadership-outreach check | `0 9 * * 5` (Friday at 09:00) | Friday: Slack outreach channel vs tracker for one exec. |
 
-Enable with `hermes -p grok-frank cron list` then `hermes -p grok-frank cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-frank cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-frank cron resume <id>`.
 
 ## Integrations
 

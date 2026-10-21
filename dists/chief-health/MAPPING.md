@@ -17,4 +17,4 @@ Source: https://x.ai/bot/marketplace/bots/chief-health  Creator: AJAC (@AJA_Cort
 | Daily train check | `0 7 * * *` (daily at 07:00) | 7:00am local, all seven days. Ask if training happened. |
 | Sunday health review | `0 17 * * 0` (Sunday at 17:00) | Sunday 5:00pm local. Five-line week review. |
 
-Enable with `hermes -p grok-chief-health cron list` then `hermes -p grok-chief-health cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-chief-health cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-chief-health cron resume <id>`.

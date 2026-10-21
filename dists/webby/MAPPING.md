@@ -25,7 +25,7 @@ Source: https://x.ai/bot/marketplace/bots/webby  Creator: Farzad (@farzyness)
 | Weekday close dashboard book | `0 9 * * 1-5` (weekdays at 09:00) | Official cash-close public dashboard ship at 3:15 local, with a 3:20 catch. |
 | Post-fill dashboard ship | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Ship the public dashboard immediately after a desk fill or close. Morning sweep is a safety net only. |
 
-Enable with `hermes -p grok-webby cron list` then `hermes -p grok-webby cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-webby cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-webby cron resume <id>`.
 
 ## Integrations
 

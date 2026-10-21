@@ -25,7 +25,7 @@ Source: https://x.ai/bot/marketplace/bots/image-gen-bot  Creator: Matt Palmer (@
 |---|---|---|
 | Weekly pull queue | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Every week, works through the stills and clips waiting in the pull queue and posts each finished file here for review. |
 
-Enable with `hermes -p grok-image-gen-bot cron list` then `hermes -p grok-image-gen-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-image-gen-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-image-gen-bot cron resume <id>`.
 
 ## Integrations
 

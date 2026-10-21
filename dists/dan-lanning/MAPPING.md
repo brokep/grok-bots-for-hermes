@@ -16,7 +16,7 @@ Source: https://x.ai/bot/marketplace/bots/dan-lanning  Creator: Jenna Nanpei (@j
 |---|---|---|
 | Post-pitch call review | `0 17 * * 1-5` (weekdays at 17:00) | Weekday evening review of recent pitch-call transcripts with structured coaching |
 
-Enable with `hermes -p grok-dan-lanning cron list` then `hermes -p grok-dan-lanning cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-dan-lanning cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-dan-lanning cron resume <id>`.
 
 ## Integrations
 

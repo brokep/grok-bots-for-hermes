@@ -22,7 +22,7 @@ Source: https://x.ai/bot/marketplace/bots/hiring-activity-monitor  Creator: Simo
 |---|---|---|
 | Weekday hiring signal digest | `0 9 * * 1-5` (weekdays at 09:00) | Disabled by default. Ingest selected sources, write normalized rows to the confirmed system of record, and deliver new… |
 
-Enable with `hermes -p grok-hiring-activity-monitor cron list` then `hermes -p grok-hiring-activity-monitor cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-hiring-activity-monitor cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-hiring-activity-monitor cron resume <id>`.
 
 ## Integrations
 

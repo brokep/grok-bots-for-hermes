@@ -23,4 +23,4 @@ Source: https://x.ai/bot/marketplace/bots/credit-card-max  Creator: Trevin Chow 
 | Perk expiry watch | `0 9 * * *` (daily at 09:00) | Runs daily to nag only on T-5 and period-end for unmuted unused watched perks; silent otherwise. |
 | Wrong-card recurring watch | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Runs weekly to flag recurring charges on a suboptimal card; silent when the queue is clean. |
 
-Enable with `hermes -p grok-credit-card-max cron list` then `hermes -p grok-credit-card-max cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-credit-card-max cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-credit-card-max cron resume <id>`.

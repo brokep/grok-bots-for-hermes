@@ -28,7 +28,7 @@ Source: https://x.ai/bot/marketplace/bots/sales-call-coach  Creator: Daniel Bril
 | Weekly coaching recap | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Once a week, reads the calls you logged and sends the counts that moved, the two weakest dimensions with quotes, and th… |
 | Objection drill | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | On the mornings you pick, runs one short live drill on the objection that keeps costing you, using wording from your ow… |
 
-Enable with `hermes -p grok-sales-call-coach cron list` then `hermes -p grok-sales-call-coach cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-sales-call-coach cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-sales-call-coach cron resume <id>`.
 
 ## Integrations
 

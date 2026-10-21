@@ -30,7 +30,7 @@ Source: https://x.ai/bot/marketplace/bots/market-researcher  Creator: Josh Kim (
 | Weekly marketing brief | `0 8 * * 1` (Monday at 08:00) | Disabled by default. Monday at 8am in the user's timezone, or any day and time the user picks. Checks every competitor'… |
 | Monthly strategy read | `0 10 1 * *` (1st of the month at 10:00) | Disabled by default. The 1st of the month at 10am in the user's timezone. Rolls the month of weekly briefs and the user… |
 
-Enable with `hermes -p grok-market-researcher cron list` then `hermes -p grok-market-researcher cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-market-researcher cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-market-researcher cron resume <id>`.
 
 ## Integrations
 

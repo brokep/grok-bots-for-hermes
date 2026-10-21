@@ -29,7 +29,7 @@ Source: https://x.ai/bot/marketplace/bots/event-producer  Creator: Jenna Nanpei 
 | Day-of brief | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | On the morning of the event, the run of show with owners, vendor arrival times with phone numbers, the guest and dietar… |
 | Post-event recap draft | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Two days after the event, drafts the recap from the trackers and asks for the three numbers it cannot know. |
 
-Enable with `hermes -p grok-event-producer cron list` then `hermes -p grok-event-producer cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-event-producer cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-event-producer cron resume <id>`.
 
 ## Integrations
 

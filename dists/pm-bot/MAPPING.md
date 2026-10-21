@@ -22,4 +22,4 @@ Source: https://x.ai/bot/marketplace/bots/pm-bot  Creator: Ulysses Ng
 |---|---|---|
 | Weekday attention list | `0 9 * * 1-5` (weekdays at 09:00) | Weekday morning quiet digest of open cuts, Eng/QA blockers, and decisions waiting on the owner; stays silent when nothi… |
 
-Enable with `hermes -p grok-pm-bot cron list` then `hermes -p grok-pm-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-pm-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-pm-bot cron resume <id>`.

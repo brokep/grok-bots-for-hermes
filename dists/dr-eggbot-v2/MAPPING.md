@@ -24,7 +24,7 @@ Source: https://x.ai/bot/marketplace/bots/dr-eggbot-v2  Creator: Lauren Tan (@po
 | transcript-healthcheck | `0 9 * * 1-5` (weekdays at 09:00) | Cron 44 8 * * 1-5 (weekdays 8:44 local). Scans recent bot transcripts for user friction; proposes skills/bots/routines;… |
 | routine-healthcheck | `0 9 * * 1` (Monday at 09:00) | Cron 49 8 * * 1 (Mondays 8:49 local). Audits fleet routines for token waste; reports fixes; stays quiet when nothing is… |
 
-Enable with `hermes -p grok-dr-eggbot-v2 cron list` then `hermes -p grok-dr-eggbot-v2 cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-dr-eggbot-v2 cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-dr-eggbot-v2 cron resume <id>`.
 
 ## Integrations
 

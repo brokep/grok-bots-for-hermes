@@ -27,7 +27,7 @@ Source: https://x.ai/bot/marketplace/bots/website-ops  Creator: Josh Kim (@joshk
 |---|---|---|
 | Weekly site audit | `0 8 * * 1` (Monday at 08:00) | Disabled by default. Monday at 8am in the user's timezone. Re-audits the saved page list for SEO, links, speed, accessi… |
 
-Enable with `hermes -p grok-website-ops cron list` then `hermes -p grok-website-ops cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-website-ops cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-website-ops cron resume <id>`.
 
 ## Integrations
 

@@ -28,7 +28,7 @@ Source: https://x.ai/bot/marketplace/bots/figma-bro  Creator: John Bai (@johnbai
 | Weekly library check | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, checks the component library and token set for new duplicates, detached instances, and hardcoded… |
 | Ready for dev sweep | `0 12 * * 5` (Friday at 12:00) | Every Friday afternoon, lists the frames marked ready for dev that still have no spec, and offers to write the next one. |
 
-Enable with `hermes -p grok-figma-bro cron list` then `hermes -p grok-figma-bro cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-figma-bro cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-figma-bro cron resume <id>`.
 
 ## Integrations
 

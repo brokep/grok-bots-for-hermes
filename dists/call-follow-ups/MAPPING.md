@@ -25,7 +25,7 @@ Source: https://x.ai/bot/marketplace/bots/call-follow-ups  Creator: Daniel Brill
 |---|---|---|
 | New call watch | `0 9 * * 1-5` (weekdays at 09:00) | Every 30 minutes on weekdays, find calls the owner hosted that finished since the last run and stage the post-call pack… |
 
-Enable with `hermes -p grok-call-follow-ups cron list` then `hermes -p grok-call-follow-ups cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-call-follow-ups cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-call-follow-ups cron resume <id>`.
 
 ## Integrations
 

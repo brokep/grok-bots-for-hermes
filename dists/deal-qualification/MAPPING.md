@@ -23,7 +23,7 @@ Source: https://x.ai/bot/marketplace/bots/deal-qualification  Creator: Jon Grigu
 |---|---|---|
 | Friday stage audit | `0 12 * * 5` (Friday at 12:00) | Every Friday afternoon, audit each of the owner's opportunities that was created or moved stage this week against the q… |
 
-Enable with `hermes -p grok-deal-qualification cron list` then `hermes -p grok-deal-qualification cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-deal-qualification cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-deal-qualification cron resume <id>`.
 
 ## Integrations
 

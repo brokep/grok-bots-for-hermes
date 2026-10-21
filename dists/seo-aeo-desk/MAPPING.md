@@ -28,7 +28,7 @@ Source: https://x.ai/bot/marketplace/bots/seo-aeo-desk  Creator: Adam Tanguay (@
 | Weekly search report | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, what moved in Search Console last week, why, and the two to four things worth doing about it. |
 | Topic watch | `0 9 * * 1-5` (weekdays at 09:00) | Each weekday morning, speaks up only when a new question or topic worth a page shows up in the user's space. |
 
-Enable with `hermes -p grok-seo-aeo-desk cron list` then `hermes -p grok-seo-aeo-desk cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-seo-aeo-desk cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-seo-aeo-desk cron resume <id>`.
 
 ## Integrations
 

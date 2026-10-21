@@ -29,7 +29,7 @@ Source: https://x.ai/bot/marketplace/bots/proto-bot  Creator: Shub Gaur (@shubga
 | Prototype rundown | `0 9 * * 1-5` (weekdays at 09:00) | Disabled by default. Weekday mornings at 9: packets for builds that finished, results of media jobs, and briefs for que… |
 | Craft scan | `0 9 * * 1` (Monday at 09:00) | Disabled by default. Mondays at 10: new models, techniques, and guides for the crafts you name, with links. |
 
-Enable with `hermes -p grok-proto-bot cron list` then `hermes -p grok-proto-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-proto-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-proto-bot cron resume <id>`.
 
 ## Integrations
 

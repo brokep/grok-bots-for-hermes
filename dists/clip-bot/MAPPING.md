@@ -26,7 +26,7 @@ Source: https://x.ai/bot/marketplace/bots/clip-bot  Creator: This Week in AI (@T
 | Clip queue pass | `0 9 * * 1-5` (weekdays at 09:00) | Every weekday morning, transcribes any new recording waiting in the clip queue and comes back with the moments worth cu… |
 | Friday clip recap | `0 9 * * 5` (Friday at 09:00) | Every Friday, a short recap of what got clipped this week, which strong moments are still uncut, and the three worth cu… |
 
-Enable with `hermes -p grok-clip-bot cron list` then `hermes -p grok-clip-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-clip-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-clip-bot cron resume <id>`.
 
 ## Integrations
 

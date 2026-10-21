@@ -28,7 +28,7 @@ Source: https://x.ai/bot/marketplace/bots/echo  Creator: Krista Letz (@kristalet
 | Post-meeting recap draft | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | After a meeting ends, drafts the recap from your notes and leaves it here for you to check. |
 | Friday recap roundup | `0 9 * * 5` (Friday at 09:00) | Every Friday, the recaps that went out this week, the drafts still sitting unsent, and the next steps that are past the… |
 
-Enable with `hermes -p grok-echo cron list` then `hermes -p grok-echo cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-echo cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-echo cron resume <id>`.
 
 ## Integrations
 

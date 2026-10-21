@@ -16,4 +16,4 @@ Source: https://x.ai/bot/marketplace/bots/nightly-audit-engineer  Creator: Lingx
 |---|---|---|
 | Nightly code-quality audit (4am) | `0 4 * * 1` (Mondays at 04:00 (weekly default)) | Research the whole tree, then one cleanup per area. Defaults to 4am; ask when to run. |
 
-Enable with `hermes -p grok-nightly-audit-engineer cron list` then `hermes -p grok-nightly-audit-engineer cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-nightly-audit-engineer cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-nightly-audit-engineer cron resume <id>`.

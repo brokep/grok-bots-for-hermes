@@ -24,7 +24,7 @@ Source: https://x.ai/bot/marketplace/bots/startup-qa-bot  Creator: Shub Gaur (@s
 |---|---|---|
 | Morning product walk | `0 9 * * 1-5` (weekdays at 09:00) | Disabled by default. Weekday mornings, ready by 9: walks your product in its test account and sends what shipped, what… |
 
-Enable with `hermes -p grok-startup-qa-bot cron list` then `hermes -p grok-startup-qa-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-startup-qa-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-startup-qa-bot cron resume <id>`.
 
 ## Integrations
 

@@ -39,7 +39,7 @@ Source: https://x.ai/bot/marketplace/bots/sell-bot  Creator: Shub Gaur (@shubgau
 | Launch heads-ups | `10 10 * * 1-5` (weekdays at 10:10) | Disabled by default. Weekdays 10:10am and 3:10pm: launches matched to customers who asked. |
 | Friday writing review | `30 15 * * 5` (Friday at 15:30) | Disabled by default. Fridays 3:30pm: drafts against what you sent, and voice rules. |
 
-Enable with `hermes -p grok-sell-bot cron list` then `hermes -p grok-sell-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-sell-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-sell-bot cron resume <id>`.
 
 ## Integrations
 

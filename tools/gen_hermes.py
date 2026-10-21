@@ -173,7 +173,7 @@ def mapping_md(t, pname, skill_names, routine_rows):
     if routine_rows:
         L += ["## Routines (cron, paused on install)", "", "| Job | Guessed schedule | Original wording |", "|---|---|---|"]
         L += [f"| {n} | `{e}` ({d}) | {clip(p, 120)} |" for n, e, d, p in routine_rows]
-        L += ["", f"Enable with `hermes -p {pname} cron list` then `hermes -p {pname} cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.", ""]
+        L += ["", f"Paused jobs are hidden by default: `hermes -p {pname} cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p {pname} cron resume <id>`.", ""]
     if t["integrations"]:
         L += ["## Integrations", "", "Grok plugins have no direct Hermes equivalent. Add an MCP server to `config.yaml` under `mcp_servers:` (same shape as a Claude Code `mcpServers` entry), then restart the profile.", ""]
         for i in t["integrations"]:
@@ -324,7 +324,7 @@ Regenerate with a different default: `python3 gen_hermes.py bots_full.json herme
 `cron/jobs.json` ships one job per routine with a cron expression guessed from the routine's prose (see each bot's `MAPPING.md`). Hermes installs shipped jobs **paused**. Check the time, then enable:
 
 ```
-hermes -p grok-x-brief cron list
+hermes -p grok-x-brief cron list --all          # paused jobs are hidden without --all
 hermes -p grok-x-brief cron edit <id> --schedule "every friday at 4pm"
 hermes -p grok-x-brief cron resume <id>
 hermes cron status        # the scheduler must be running (gateway or `hermes cron tick` from your own cron)

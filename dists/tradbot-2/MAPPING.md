@@ -26,7 +26,7 @@ Source: https://x.ai/bot/marketplace/bots/tradbot-2  Creator: Claire Vo (@claire
 | Weekend preview | `0 17 * * 0,6` (weekends at 17:00) | Every Friday evening, the weekend and the week after it with the collisions, what to prepare, and everything still owed. |
 | Monthly parent note | `0 9 1 * *` (1st of the month at 09:00) | On the first of each month, local events worth considering plus age-adjusted development and parenting notes. |
 
-Enable with `hermes -p grok-tradbot-2 cron list` then `hermes -p grok-tradbot-2 cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-tradbot-2 cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-tradbot-2 cron resume <id>`.
 
 ## Integrations
 

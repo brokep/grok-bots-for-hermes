@@ -28,7 +28,7 @@ Source: https://x.ai/bot/marketplace/bots/product-marketer  Creator: Josh Kim (@
 |---|---|---|
 | Principles review | `0 9 * * 1` (Monday at 09:00) | Disabled by default. Mondays at 9am in the user's timezone. Re-reads the positioning principles doc and the voice profi… |
 
-Enable with `hermes -p grok-product-marketer cron list` then `hermes -p grok-product-marketer cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-product-marketer cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-product-marketer cron resume <id>`.
 
 ## Integrations
 

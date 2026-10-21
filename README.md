@@ -17,7 +17,7 @@ cd grok-bots-for-hermes
 grok-human-copywriter chat               # or: hermes -p grok-human-copywriter chat
 ```
 
-Requires Hermes Agent 0.14 or newer (`hermes --version`). Verified on 0.15.0: install, skills index and cron list. No session has been run against a model.
+Requires Hermes Agent 0.14 or newer (`hermes --version`). Verified on 0.15.0 from a fresh clone: install, skills index, paused cron jobs and resume. No session has been run against a model.
 
 ## Keys and models
 
@@ -44,7 +44,7 @@ hermes -p grok-prospector fallback add                     # chain a second prov
 `cron/jobs.json` ships one job per routine with a cron expression guessed from the routine's prose. Jobs arrive **paused**. Check each bot's `MAPPING.md`, fix the time, then resume:
 
 ```
-hermes -p grok-x-brief cron list
+hermes -p grok-x-brief cron list --all     # paused jobs are hidden without --all
 hermes -p grok-x-brief cron edit <id>
 hermes -p grok-x-brief cron resume <id>
 ```

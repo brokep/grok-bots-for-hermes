@@ -22,7 +22,7 @@ Source: https://x.ai/bot/marketplace/bots/qa-bot  Creator: Ulysses Ng
 |---|---|---|
 | Post-merge AC fail-gate | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | When a PR merges in the watched product repo, verify Production SHA and re-run the BLOCK AC pack; stay quiet on unchang… |
 
-Enable with `hermes -p grok-qa-bot cron list` then `hermes -p grok-qa-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-qa-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-qa-bot cron resume <id>`.
 
 ## Integrations
 

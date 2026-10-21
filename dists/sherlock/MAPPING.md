@@ -29,7 +29,7 @@ Source: https://x.ai/bot/marketplace/bots/sherlock  Creator: Tommy Hansen (@Tomm
 | Daily candidate batch | `0 9 * * 1-5` (weekdays at 09:00) | Every weekday morning, sources a small batch of new candidates for the open role, deduped against your pipeline, with e… |
 | Weekly sourcing recap | `0 9 * * 5` (Friday at 09:00) | Every Friday, a recap of who was added, what you kept and passed on, who has not replied yet, and whether the bar needs… |
 
-Enable with `hermes -p grok-sherlock cron list` then `hermes -p grok-sherlock cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-sherlock cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-sherlock cron resume <id>`.
 
 ## Integrations
 

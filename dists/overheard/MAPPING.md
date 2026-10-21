@@ -21,7 +21,7 @@ Source: https://x.ai/bot/marketplace/bots/overheard  Creator: Lenny Rachitsky (@
 |---|---|---|
 | Daily mention monitor | `0 9 * * 1-5` (weekdays at 09:00) | Paused weekday-morning mention sweep. Created after the watch-list interview. Enable only when the user says so. Digest… |
 
-Enable with `hermes -p grok-overheard cron list` then `hermes -p grok-overheard cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-overheard cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-overheard cron resume <id>`.
 
 ## Integrations
 

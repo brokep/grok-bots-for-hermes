@@ -32,7 +32,7 @@ Source: https://x.ai/bot/marketplace/bots/account-book  Creator: Anoop Baliga (@
 | Weekday call prep | `0 9 * * 1-5` (weekdays at 09:00) | Every weekday morning, a short prep on the external calls that day with what changed, who is on them, and what is still… |
 | Friday open threads review | `0 9 * * 5` (Friday at 09:00) | Every Friday morning, the open threads and next steps across your accounts, with what has gone stale and what closed th… |
 
-Enable with `hermes -p grok-account-book cron list` then `hermes -p grok-account-book cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-account-book cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-account-book cron resume <id>`.
 
 ## Integrations
 

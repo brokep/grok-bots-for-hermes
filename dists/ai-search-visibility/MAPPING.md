@@ -28,7 +28,7 @@ Source: https://x.ai/bot/marketplace/bots/ai-search-visibility  Creator: Adam Ta
 | Weekly visibility brief | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Every week, runs the whole prompt list, then reports which answers moved, who is winning, and the one thing to do about… |
 | Top prompt spot check | `0 9 * * 1,4` (Mondays and Thursdays at 09:00) | Twice a week, re-runs the top five prompts and speaks up only when the user drops out of an answer or a new name shows… |
 
-Enable with `hermes -p grok-ai-search-visibility cron list` then `hermes -p grok-ai-search-visibility cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-ai-search-visibility cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-ai-search-visibility cron resume <id>`.
 
 ## Integrations
 

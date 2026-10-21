@@ -29,7 +29,7 @@ Source: https://x.ai/bot/marketplace/bots/distro-bot  Creator: Shub Gaur (@shubg
 | Outbound replies | `15 11 * * 1-5` (weekdays at 11:15) | Disabled by default. Weekdays 11:15am and 4:15pm: replies handed to sales, follow-ups drafted. |
 | Weekly distro review | `45 8 * * 1` (Monday at 08:45) | Disabled by default. Mondays 8:45am: every channel's numbers, competitor moves, and this week's tests. |
 
-Enable with `hermes -p grok-distro-bot cron list` then `hermes -p grok-distro-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-distro-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-distro-bot cron resume <id>`.
 
 ## Integrations
 

@@ -27,4 +27,4 @@ Source: https://x.ai/bot/marketplace/bots/alfred  Creator: Robin Delta (@heyrobi
 | Monthly Bot Portfolio Strategy Review | `0 9 1 * *` (1st of the month at 09:00) | Monthly Bot Portfolio Strategy Review |
 | Quarterly Company & AI Operating Model Review | `0 9 1 1,4,7,10 *` (first day of each quarter at 09:00) | Quarterly Company & AI Operating Model Review |
 
-Enable with `hermes -p grok-alfred cron list` then `hermes -p grok-alfred cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-alfred cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-alfred cron resume <id>`.

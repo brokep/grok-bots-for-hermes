@@ -25,7 +25,7 @@ Source: https://x.ai/bot/marketplace/bots/competitor-watching  Creator: Shimecki
 | Weekly competitor brief | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, diffs the pages on the watch list against the last snapshot and delivers a brief of what changed… |
 | Daily launch check | `0 9 * * 1-5` (weekdays at 09:00) | Each weekday morning, checks changelog, release note, and blog pages across the watch list and speaks up only when a co… |
 
-Enable with `hermes -p grok-competitor-watching cron list` then `hermes -p grok-competitor-watching cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-competitor-watching cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-competitor-watching cron resume <id>`.
 
 ## Integrations
 

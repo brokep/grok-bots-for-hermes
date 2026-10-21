@@ -31,7 +31,7 @@ Source: https://x.ai/bot/marketplace/bots/customer-stories  Creator: Anoop Balig
 | Weekly proof roundup | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, what new proof came in, which customers are ready for a case study, which approvals are still sit… |
 | Monthly proof refresh | `0 9 1 * *` (1st of the month at 09:00) | Once a month, the quotes and numbers that have aged out, the customers worth a fresh call, and the claims with the thin… |
 
-Enable with `hermes -p grok-customer-stories cron list` then `hermes -p grok-customer-stories cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-customer-stories cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-customer-stories cron resume <id>`.
 
 ## Integrations
 

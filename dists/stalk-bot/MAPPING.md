@@ -40,7 +40,7 @@ Source: https://x.ai/bot/marketplace/bots/stalk-bot  Creator: Shub Gaur (@shubga
 | Weekly deep dive | `0 10 * * 5` (Friday at 10:00) | Disabled by default. Friday 10am, one competitor in rotation. Re-walks the product on video, re-runs the feature test p… |
 | Competitor churn watch | `0 10 * * 1-5` (weekdays at 10:00) | Disabled by default and only useful once a churn source is named. Weekdays at 10am in the user's timezone. Scans the ch… |
 
-Enable with `hermes -p grok-stalk-bot cron list` then `hermes -p grok-stalk-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-stalk-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-stalk-bot cron resume <id>`.
 
 ## Integrations
 

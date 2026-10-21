@@ -30,7 +30,7 @@ Source: https://x.ai/bot/marketplace/bots/fuse  Creator: Miguel Cruz (@cruzmigue
 | Midday burn check | `0 12 * * 1-5` (weekdays at 12:00) | Every weekday around midday, catches a spend spike the same day it happens, but only when a live source is connected. |
 | Weekly budget pace check | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, where month-to-date ad spend lands against your plan and which accounts are going to overshoot. |
 
-Enable with `hermes -p grok-fuse cron list` then `hermes -p grok-fuse cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-fuse cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-fuse cron resume <id>`.
 
 ## Integrations
 

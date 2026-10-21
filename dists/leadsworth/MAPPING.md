@@ -27,7 +27,7 @@ Source: https://x.ai/bot/marketplace/bots/leadsworth  Creator: Miguel Cruz (@cru
 | Daily lead triage | `0 21 * * 1-5` (weekdays at 21:00) | Every weekday morning, scores the leads that came in overnight, merges duplicates, and lists what has no owner or is pa… |
 | Weekly pipeline report | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, the week's lead counts by source, the tier mix, what moved, what is stuck, and pacing against the… |
 
-Enable with `hermes -p grok-leadsworth cron list` then `hermes -p grok-leadsworth cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-leadsworth cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-leadsworth cron resume <id>`.
 
 ## Integrations
 

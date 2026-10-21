@@ -29,7 +29,7 @@ Source: https://x.ai/bot/marketplace/bots/event-request-desk  Creator: Emma Weyr
 | Weekly queue review | `0 9 * * 1` (Monday at 09:00) | Every Monday morning, the whole event request queue grouped by what needs a decision, what is stale, and what is alread… |
 | Weekly commitment check | `0 9 * * 4` (Thursday at 09:00) | Every Thursday morning, what the team still owes organizers for events already said yes to, with anything overdue first. |
 
-Enable with `hermes -p grok-event-request-desk cron list` then `hermes -p grok-event-request-desk cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-event-request-desk cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-event-request-desk cron resume <id>`.
 
 ## Integrations
 

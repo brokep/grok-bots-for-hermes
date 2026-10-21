@@ -30,7 +30,7 @@ Source: https://x.ai/bot/marketplace/bots/marketing-analyst  Creator: Josh Kim (
 | Weekly paid media report | `0 9 * * 1` (Monday at 09:00) | Disabled by default. Monday mornings in the user's timezone. Builds last week's paid media report from the exports on h… |
 | Monthly paid media report | `0 9 1 * *` (1st of the month at 09:00) | Disabled by default. The 1st of the month in the user's timezone. Builds the closed month's report with the three month… |
 
-Enable with `hermes -p grok-marketing-analyst cron list` then `hermes -p grok-marketing-analyst cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-marketing-analyst cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-marketing-analyst cron resume <id>`.
 
 ## Integrations
 

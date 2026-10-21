@@ -18,7 +18,7 @@ Source: https://x.ai/bot/marketplace/bots/cooper  Creator: Tommy Hansen (@TommyH
 | Midday competitor alert | `0 13 * * 1-5` (weekdays at 13:00) | Weekdays at 1:00 PM — Slack DM only if a top competitor/hire/priority-company story clears the bar; otherwise stay sile… |
 | Afternoon competitor alert | `0 16 * * 1-5` (weekdays at 16:00) | Weekdays at 4:00 PM — Slack DM only if a top competitor/hire/priority-company story clears the bar; otherwise stay sile… |
 
-Enable with `hermes -p grok-cooper cron list` then `hermes -p grok-cooper cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-cooper cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-cooper cron resume <id>`.
 
 ## Integrations
 

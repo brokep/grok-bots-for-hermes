@@ -22,7 +22,7 @@ Source: https://x.ai/bot/marketplace/bots/pipeline-health-and-forecast  Creator:
 |---|---|---|
 | Weekday pipeline pulse | `0 9 * * 1-5` (weekdays at 09:00) | Disabled by default. Scan an approved opportunity view for new signals, stale next steps, and forecast risk. |
 
-Enable with `hermes -p grok-pipeline-health-and-forecast cron list` then `hermes -p grok-pipeline-health-and-forecast cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-pipeline-health-and-forecast cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-pipeline-health-and-forecast cron resume <id>`.
 
 ## Integrations
 

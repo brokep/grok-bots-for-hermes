@@ -26,7 +26,7 @@ Source: https://x.ai/bot/marketplace/bots/sable-game-art  Creator: Danny Limanse
 | Weekly art review | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Once a week, checks new art against the style guide and the spec, reports what drifted with the numbers behind it, and… |
 | Weekly reference sweep | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Once a week, sends four to six fresh art references in the user's genre and style, each with a source link and what is… |
 
-Enable with `hermes -p grok-sable-game-art cron list` then `hermes -p grok-sable-game-art cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-sable-game-art cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-sable-game-art cron resume <id>`.
 
 ## Integrations
 

@@ -24,7 +24,7 @@ Source: https://x.ai/bot/marketplace/bots/follow-through-agent  Creator: Jon Gri
 |---|---|---|
 | Commitment-strand audit | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Disabled by default. Reconcile approved sources and privately surface evidence-backed commitments or facts stranded wit… |
 
-Enable with `hermes -p grok-follow-through-agent cron list` then `hermes -p grok-follow-through-agent cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-follow-through-agent cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-follow-through-agent cron resume <id>`.
 
 ## Integrations
 

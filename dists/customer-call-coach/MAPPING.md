@@ -16,7 +16,7 @@ Source: https://x.ai/bot/marketplace/bots/customer-call-coach  Creator: Anoop Ba
 |---|---|---|
 | Friday Coach Refresh | `0 12 * * 5` (Friday at 12:00) | Quiet Friday afternoon refresh of coaching signals from meetings and Slack; stays silent unless a connector fails. Ship… |
 
-Enable with `hermes -p grok-customer-call-coach cron list` then `hermes -p grok-customer-call-coach cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-customer-call-coach cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-customer-call-coach cron resume <id>`.
 
 ## Integrations
 

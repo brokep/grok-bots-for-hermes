@@ -23,7 +23,7 @@ Source: https://x.ai/bot/marketplace/bots/account-research  Creator: Stefan Mark
 |---|---|---|
 | Weekly account monitor | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Disabled by default. Check selected strategic accounts for sourced changes and update their private research brief. |
 
-Enable with `hermes -p grok-account-research cron list` then `hermes -p grok-account-research cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-account-research cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-account-research cron resume <id>`.
 
 ## Integrations
 

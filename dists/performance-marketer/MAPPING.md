@@ -27,7 +27,7 @@ Source: https://x.ai/bot/marketplace/bots/performance-marketer  Creator: Josh Ki
 |---|---|---|
 | Traffic watch | `0 9 * * *` (daily at 09:00) | Disabled by default. Daily at 9am in the user's timezone. Reads every enabled campaign in the signed-in platform agains… |
 
-Enable with `hermes -p grok-performance-marketer cron list` then `hermes -p grok-performance-marketer cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-performance-marketer cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-performance-marketer cron resume <id>`.
 
 ## Integrations
 

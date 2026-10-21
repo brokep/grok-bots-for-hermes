@@ -27,7 +27,7 @@ Source: https://x.ai/bot/marketplace/bots/apple-search-ads-review  Creator: Chri
 | Weekly ad review | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Every week on the user's chosen morning, a read on last week's Apple Search Ads spend against target, with the changes… |
 | Daily spend check | `0 9 * * 1-5` (weekdays at 09:00) | Each weekday morning, checks for a new export and speaks up only about groups over target or spending with nothing to s… |
 
-Enable with `hermes -p grok-apple-search-ads-review cron list` then `hermes -p grok-apple-search-ads-review cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-apple-search-ads-review cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-apple-search-ads-review cron resume <id>`.
 
 ## Integrations
 

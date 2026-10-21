@@ -26,7 +26,7 @@ Source: https://x.ai/bot/marketplace/bots/haggle-bot  Creator: Daniel Gartshein
 | Renewal window watch | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Disabled by default. Weekly scan of the vendor database for contracts renewing inside the priority window (default 120… |
 | Monthly inventory refresh | `0 9 1 * *` (1st of the month at 09:00) | Disabled by default. Monthly re-pull of Ramp cards and bills, diffed against the vendor database, with new vendors, spe… |
 
-Enable with `hermes -p grok-haggle-bot cron list` then `hermes -p grok-haggle-bot cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-haggle-bot cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-haggle-bot cron resume <id>`.
 
 ## Integrations
 

@@ -33,7 +33,7 @@ Source: https://x.ai/bot/marketplace/bots/mr-toms  Creator: Tommy Hansen (@Tommy
 | Interview coaching review | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Once a week, coaches the scorecards and messages the user queued and flags ratings written without evidence. |
 | Weekly pipeline review | `0 12 * * 5` (Friday at 12:00) | Every Friday afternoon, what moved per role, who is stuck and with whom, next week's interview load, and the calls that… |
 
-Enable with `hermes -p grok-mr-toms cron list` then `hermes -p grok-mr-toms cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-mr-toms cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-mr-toms cron resume <id>`.
 
 ## Integrations
 

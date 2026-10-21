@@ -26,9 +26,9 @@
       },
       "enabled": false,
       "state": "paused",
-      "paused_at": "2026-10-21T11:21:03.201587-06:00",
+      "paused_at": "2026-10-21T11:35:58.975915-06:00",
       "paused_reason": "shipped paused by gen_hermes.py; check the schedule, then `hermes cron resume`",
-      "created_at": "2026-10-21T11:21:03.201587-06:00",
+      "created_at": "2026-10-21T11:35:58.975915-06:00",
       "next_run_at": null,
       "last_run_at": null,
       "last_status": null,
@@ -41,5 +41,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-10-21T11:21:03.201587-06:00"
+  "updated_at": "2026-10-21T11:35:58.975915-06:00"
 }

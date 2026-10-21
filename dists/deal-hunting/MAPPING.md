@@ -17,4 +17,4 @@ Source: https://x.ai/bot/marketplace/bots/deal-hunting  Creator: Shimecki (@sche
 | Watchlist check | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Watchlist check |
 | Weekly process note | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Weekly process note |
 
-Enable with `hermes -p grok-deal-hunting cron list` then `hermes -p grok-deal-hunting cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-deal-hunting cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-deal-hunting cron resume <id>`.

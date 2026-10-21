@@ -31,7 +31,7 @@ Source: https://x.ai/bot/marketplace/bots/sequencer  Creator: Simon Lackowski
 | Inbox triage | `0 9 * * 1-5` (weekdays at 09:00) | Disabled by default. Hourly from 9am to 5pm on weekdays in the user's timezone. Flags inbound mail and messages from pe… |
 | CRM sequence guard | `0 18 * * 1-5` (weekdays at 18:00) | Disabled by default. Weekday evenings at 6pm in the user's timezone. Pauses tracker rows where the CRM shows the saved… |
 
-Enable with `hermes -p grok-sequencer cron list` then `hermes -p grok-sequencer cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-sequencer cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-sequencer cron resume <id>`.
 
 ## Integrations
 

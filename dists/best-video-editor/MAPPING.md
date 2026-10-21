@@ -25,7 +25,7 @@ Source: https://x.ai/bot/marketplace/bots/best-video-editor  Creator: X Freeze (
 |---|---|---|
 | Weekly cut queue | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Once a week, finishes the cuts the user parked, attaches them here, and asks the one question each stuck job needs. |
 
-Enable with `hermes -p grok-best-video-editor cron list` then `hermes -p grok-best-video-editor cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-best-video-editor cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-best-video-editor cron resume <id>`.
 
 ## Integrations
 

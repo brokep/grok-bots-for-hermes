@@ -18,7 +18,7 @@ Source: https://x.ai/bot/marketplace/bots/love  Creator: Danny Buck (@dannybuck)
 | Wednesday question | `0 9 * * 3` (Wednesday at 09:00) | Wednesday question |
 | Monthly small gift | `0 9 1 * *` (1st of the month at 09:00) | Monthly small gift |
 
-Enable with `hermes -p grok-love cron list` then `hermes -p grok-love cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-love cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-love cron resume <id>`.
 
 ## Integrations
 

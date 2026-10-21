@@ -29,7 +29,7 @@ Source: https://x.ai/bot/marketplace/bots/pg  Creator: Krista Letz (@kristaletz)
 | Friday prospecting recap | `0 9 * * 5` (Friday at 09:00) | Every Friday, what went out this week, what came back, which rows are waiting on you, and where the list is running thi… |
 | Monday list top-up | `0 9 * * 1` (Monday at 09:00) | Every Monday, adds new companies and named people that match your ideal customer so the list never runs dry. |
 
-Enable with `hermes -p grok-pg cron list` then `hermes -p grok-pg cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-pg cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-pg cron resume <id>`.
 
 ## Integrations
 

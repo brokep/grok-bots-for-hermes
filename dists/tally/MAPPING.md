@@ -27,7 +27,7 @@ Source: https://x.ai/bot/marketplace/bots/tally  Creator: Miguel Cruz (@cruzmigu
 | Weekly paid media report | `0 9 * * 1` (Mondays at 09:00 (weekly default)) | Once a week, builds last week's paid media report from the exports on hand, or names exactly which export it still need… |
 | Monthly paid media report | `0 9 1 * *` (1st of the month at 09:00) | On the first business day of the month, builds the closed month's report with the three-month trend, campaign rollup, a… |
 
-Enable with `hermes -p grok-tally cron list` then `hermes -p grok-tally cron resume <id>`; fix the time first with `cron edit` if the guess is wrong.
+Paused jobs are hidden by default: `hermes -p grok-tally cron list --all` shows them. Fix the time with `cron edit <id>` if the guess is wrong, then `hermes -p grok-tally cron resume <id>`.
 
 ## Integrations
 

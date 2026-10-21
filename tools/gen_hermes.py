@@ -275,7 +275,7 @@ case "${1:-}" in
 esac
 for s in "$@"; do
   [ -d "$HERE/dists/$s" ] || { echo "no such bot: $s"; continue; }
-  "$HERMES" profile install "$HERE/dists/$s" -y "${flag[@]}" --force
+  "$HERMES" profile install "$HERE/dists/$s" -y ${flag[@]+"${flag[@]}"} --force
 done
 echo; echo "Done. Try:  hermes -p grok-$1 chat     (or just: grok-$1 chat)"
 '''
